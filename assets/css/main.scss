@@ -1,0 +1,271 @@
+
+$black: #1d1d1f; //headerss 
+$dark-gray: #86868b;
+$light-gray: #F5F5F7; //bg gray
+$blue: #267AEF;
+$gray: #86868b; //paragraphs 
+
+$main-font: "Montserrat", sans-serif;
+
+
+body {
+	margin: 0;
+    padding: 0;
+    letter-spacing: -0.01em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: always;
+    overflow-x: hidden;
+}
+
+
+a {
+	color: $blue;
+	&:hover {
+		color: lighten($blue, 10%);
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $black;
+}
+
+p {
+	color: $gray;
+	line-height: 1.6em;
+}
+
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+#hero {
+  background-image: url('/assets/img/bg-arrow.png');
+  background-size: 80%;
+  background-position: 95% 145%;
+  background-repeat: no-repeat;
+  padding-top: 0px;
+  margin-bottom: 160px;
+
+	.btn-get-started {
+	  margin-top: 46px;
+	  font-weight: 600;
+	  border-radius: 24px;
+	  color: white;
+	  font-size: .9em;
+	  background: $blue;
+	}
+
+	.hero-h1 {
+		margin-top: 0px;
+	}
+
+	.caret-link {
+		width: auto;
+		display: block;
+		right: 60px;
+		text-align: right;
+		position: absolute;
+		bottom: 30px;
+		font-weight: 600;
+		font-size: .85em;
+
+		p#link {
+			margin-bottom: 8px;
+			color: $blue;
+		}
+
+		div#down-caret {
+			background-color: $blue;
+			height: 32px;
+			width: 32px;
+			line-height: 100%;
+			margin: 0px auto;
+			font-weight: 800;
+			text-align: center;
+			font-size: 1.6em;
+			border-radius: 100%;
+			color: white;
+		}
+	}
+
+}
+
+
+
+/*--------------------------------------------------------------
+# Main Paragraph Sections
+--------------------------------------------------------------*/
+
+section.main {
+
+	.text {
+		//border: 1px solid green;
+		padding: 0px 30px;
+	}
+
+	.image {
+		//border: 1px solid blue;
+		text-align: center;
+	}
+
+	h2 {
+		font-weight: 700;
+		font-size: 1.3em;
+		margin: 15px 0px;
+	}
+
+	.img-fluid.medium {
+		max-width: 80%;
+		margin: 0 auto;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+# Footnote Section
+--------------------------------------------------------------*/
+
+// In paragraph footnote
+.footnote {
+	font-weight: 600;
+	padding: 0px 3px;
+	color: $blue;
+}
+
+section.footnotes {
+	//border: 1px solid aqua;
+	padding: 20px 0px;
+	width: 85%;
+	margin: 0 auto;
+
+  -webkit-mask-image: -webkit-gradient(
+    linear, center top, center bottom, 
+    color-stop(0.00,  rgba(0,0,0,1)),
+    color-stop(0.35,  rgba(0,0,0,0.9)),
+    color-stop(0.50,  rgba(0,0,0,0.7)),
+    color-stop(0.65,  rgba(0,0,0,0.4)),
+    color-stop(1.00,  rgba(0,0,0,0)));
+
+	.row {
+		margin: 25px 0px;
+		z-index: -1;
+	}
+
+	.col-lg-1 {
+		max-width: 2%;
+		color: $blue;
+		font-weight: 600;
+	}
+
+	strong.footnote-title {
+		font-size: 0.7em;
+		color: lighten($gray, 20%);
+		color: $gray;
+		font-weight: 500;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+		display: block;
+	}
+
+	span, a {
+		font-size: .75em;
+	}
+
+	span.source {
+		display: inline-block;
+		color: $black;
+		font-weight: 600;
+		margin-top: 10px;
+	}
+
+	a {
+		margin-left: 4px;
+		font-weight: 500;
+		font-style: italic;
+		color: $gray;
+		border-bottom: 1px solid $blue;
+		
+		&:hover {
+			color: $blue;
+			transition: all ease-in .2s;
+		}
+	}
+	.hidden-footnotes {
+		display: none;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+# Request Section
+--------------------------------------------------------------*/
+
+.headshot {
+  width: 70px;
+  height: 70px;
+  background-image: url('/assets/img/jack.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  z-index: 9;
+  margin: 0 auto;
+  position: absolute;
+  margin-left: 47.2%;
+  margin-top: 20px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+}
+
+
+/*--------------------------------------------------------------
+# Footer Section
+--------------------------------------------------------------*/
+
+footer {
+	background: $light-gray;
+
+	img.icon {
+		width: 40px;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+# JS/jQuery Styles 
+--------------------------------------------------------------*/
+
+.hero-h1, .btn-get-started.top, .caret-link, #hero {
+	opacity: 0;
+}
+
+
+.highlight {
+	width: 300px;
+    height: 12px;
+    margin-top: -20px;
+    background-color: #ffd673;
+    opacity: 0.9;
+    z-index: -9;
+}
+
+
+#splash {
+  	width: 100%;
+  	height: 100vh;
+ 	background-image: radial-gradient(40% 80%, rgba(38,122,239,0.60) 0%, #267AEF 100%);
+
+	.splash-logo {
+		width: 50%;
+		margin: 0 auto;
+		padding-right: 20px;
+		padding-bottom: 20px;
+	}
+ }
+
+
+
