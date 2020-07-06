@@ -69,8 +69,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/coin.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -234,6 +234,17 @@
 		"iS": 14973,
 		"oA": 0,
 		"oAP": "/assets/img/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/worker.png": {
+		"ft": 32768,
+		"iS": 454067,
+		"oA": 0,
+		"oAP": "/assets/img/worker.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
