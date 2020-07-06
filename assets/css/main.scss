@@ -1,11 +1,12 @@
 
-$black: #1d1d1f; //headerss 
-$dark-gray: #86868b;
-$light-gray: #F5F5F7; //bg gray
 $blue: #267AEF;
-$gray: #86868b; //paragraphs 
+$black: #1d1d1f; //headerss 
+$light-gray: #F5F5F7; //backgrounds 
+$gray: #78787D; //paragraph text
 
 $main-font: "Montserrat", sans-serif;
+
+$soft-btn-shadow: 0px 2px 15px rgba(0,0,0,0.15);
 
 
 body {
@@ -22,7 +23,8 @@ body {
 a {
 	color: $blue;
 	&:hover {
-		color: lighten($blue, 10%);
+		color: lighten($blue, 15%);
+		transition: all ease-in .2s;
 	}
 }
 
@@ -47,7 +49,7 @@ p {
   background-position: 95% 145%;
   background-repeat: no-repeat;
   padding-top: 0px;
-  margin-bottom: 160px;
+  margin-bottom: 120px;
 
 	.btn-get-started {
 	  margin-top: 46px;
@@ -56,6 +58,7 @@ p {
 	  color: white;
 	  font-size: .9em;
 	  background: $blue;
+	  box-shadow: $soft-btn-shadow;
 	}
 
 	.hero-h1 {
@@ -88,6 +91,7 @@ p {
 			font-size: 1.6em;
 			border-radius: 100%;
 			color: white;
+			box-shadow: $soft-btn-shadow;
 		}
 	}
 
@@ -100,6 +104,7 @@ p {
 --------------------------------------------------------------*/
 
 section.main {
+	height: 90vh;
 
 	.text {
 		//border: 1px solid green;
@@ -115,12 +120,14 @@ section.main {
 		font-weight: 700;
 		font-size: 1.3em;
 		margin: 15px 0px;
+		line-height: 1.3em;
 	}
 
 	.img-fluid.medium {
 		max-width: 80%;
 		margin: 0 auto;
 	}
+
 }
 
 
@@ -129,17 +136,17 @@ section.main {
 # Footnote Section
 --------------------------------------------------------------*/
 
-// In paragraph footnote
+// In-line footnote
 .footnote {
 	font-weight: 600;
-	padding: 0px 3px;
+	padding: 2px 5px;
 	color: $blue;
 }
 
 section.footnotes {
 	//border: 1px solid aqua;
-	padding: 20px 0px;
-	width: 85%;
+	padding: 20px 0px 15px;
+	width: 80%;
 	margin: 0 auto;
 
   -webkit-mask-image: -webkit-gradient(
@@ -150,9 +157,24 @@ section.footnotes {
     color-stop(0.65,  rgba(0,0,0,0.4)),
     color-stop(1.00,  rgba(0,0,0,0)));
 
+	h4 {
+		font-size: 0.8em;
+		padding-top: 30px;
+		font-weight: bold;
+		letter-spacing: 0.02em;
+		//text-transform: uppercase;
+		border-top: 1px solid darken($light-gray, 5%);
+		width: 95%;
+	}
+
 	.row {
-		margin: 25px 0px;
+		margin: 30px 0px;
 		z-index: -1;
+		
+		&:first-child {
+			margin-top: 20px;
+		}
+	
 	}
 
 	.col-lg-1 {
@@ -161,18 +183,22 @@ section.footnotes {
 		font-weight: 600;
 	}
 
+	.col-lg-11 {
+		line-height: 1.3em;
+	}
+
 	strong.footnote-title {
 		font-size: 0.7em;
-		color: lighten($gray, 20%);
 		color: $gray;
 		font-weight: 500;
 		letter-spacing: 0.05em;
 		text-transform: uppercase;
 		display: block;
+		line-height: 0.8em;
 	}
 
 	span, a {
-		font-size: .75em;
+		font-size: .78em;
 	}
 
 	span.source {
@@ -186,7 +212,7 @@ section.footnotes {
 		margin-left: 4px;
 		font-weight: 500;
 		font-style: italic;
-		color: $gray;
+		color: $black;
 		border-bottom: 1px solid $blue;
 		
 		&:hover {
@@ -220,6 +246,13 @@ section.footnotes {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
 }
 
+section.request {
+
+	.typeform-widget {
+		margin-top: 30px;
+	}
+}
+
 
 /*--------------------------------------------------------------
 # Footer Section
@@ -234,25 +267,9 @@ footer {
 }
 
 
-
 /*--------------------------------------------------------------
-# JS/jQuery Styles 
+# Splash  
 --------------------------------------------------------------*/
-
-.hero-h1, .btn-get-started.top, .caret-link, #hero {
-	opacity: 0;
-}
-
-
-.highlight {
-	width: 300px;
-    height: 12px;
-    margin-top: -20px;
-    background-color: #ffd673;
-    opacity: 0.9;
-    z-index: -9;
-}
-
 
 #splash {
   	width: 100%;
@@ -267,5 +284,23 @@ footer {
 	}
  }
 
+
+
+/*--------------------------------------------------------------
+# JS/jQuery Styles 
+--------------------------------------------------------------*/
+
+// .hero-h1, .btn-get-started.top, .caret-link, #hero {
+// 	opacity: 0;
+// }
+
+.highlight {
+	width: 300px;
+    height: 12px;
+    margin-top: -20px;
+    background-color: #ffd673;
+    opacity: 0.9;
+    z-index: -9;
+}
 
 

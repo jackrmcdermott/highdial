@@ -29,6 +29,9 @@
   <link href="/assets/vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet">
   <link href="/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
+  <!--SmoothScroll Vendor -->
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
   <!-- Template Main CSS File -->
   <link href="/assets/css/style-min.css" rel="stylesheet">
   <link href="/assets/css/main.css" rel="stylesheet">
@@ -46,7 +49,7 @@
           <div><a href="/request" class="btn-get-started top">Request your invite  &nbsp;›</a></div>
         </div>
       </div><!-- end row -->
-        <a href="#why" class="scrollto caret-link"><p id="link">Why do we need new career pathways?</p><div id="down-caret">⌄</div></a>
+        <a href="#why" class="caret-link" data-scroll><p id="link">Why do we need new career pathways?</p><div id="down-caret">⌄</div></a>
     </div><!--end container -->
   </section><!-- End Hero -->
 
@@ -57,9 +60,26 @@
       <div class="row">
         <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center text">
           <h2>Today, upward mobility has become a coin toss.</h2>
-          <p>For decades, education has been a sure path to stable, well-paying careers. In the 1940s, 90% of students could expect to out-earn their parents.</br><br>Today, a student has only a 50% chance of realizing a career that will enable them to out-earn their parents—and low-income, first-generation, and minority students have an even steeper climb to maximize their career earnings potential.<a href="#f1" class="footnote scrollto">&sup1;</a>
+          <p>For decades, education has been a sure path to stable, well-paying careers. In the 1940s, 90% of students could expect to out-earn their parents.
+          </p>
+          <p>Today, students have only a 50% chance of realizing a career that will enable them to out-earn their parents—and low-income, first-generation, and minority students have an even steeper climb to maximize their career earnings potential.<a href="#f1" class="footnote" data-scroll>&sup1;</a></p>
         </div>
-        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center image"><img src="/assets/img/coin.jpg" class="img-fluid medium" alt="Coin toss"></div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center image"><img src="/assets/img/coin.png" class="img-fluid medium" alt="Coin toss"></div>
+      </div><!--end row -->
+    </div><!-- end container -->
+  </section>
+
+  <!-- ======= Why Section ======= -->
+  <section class="main" id="why">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center text">
+          <h2>Most workers will enter their career without a </br>4-year college degree.</h2>
+          <p>As technological change has disrupted industries, schools have struggled to keep pace in preparing skilled workers. 3+ million students now enter the workforce without a four-year college degree each year.</p>
+          <p>
+          Most young adults will pursue a college degree, but 45% who start don’t finish. Along the way, students have amassed $1.5 trillion in student loan debt. Even those who do graduate start their career with $30,000 in debt on average.<a href="#f2" class="footnote" data-scroll>&sup2;</a></p>
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center image"><img src="/assets/img/coin.png" class="img-fluid medium" alt="Coin toss"></div>
       </div><!--end row -->
     </div><!-- end container -->
   </section>
@@ -67,6 +87,8 @@
 <!-- ======= Why Footnotes ======= -->
   <section class="footnotes">
     <div class="container">
+
+      <h4>References</h4>
       
 <div class="visible-footnotes">
 
@@ -86,6 +108,16 @@
           <div class="col-lg-11">
             <strong class="footnote-title">Federal Reserve Bank of New York</strong>
             <span class="source">Center for Microeconomic Data</span>, <a href="https://www.newyorkfed.org/microeconomics/topics/student-debt" target="_blank">Student Debt Topic Reports</a>
+            </div>
+        </p>
+      </div><!--end  row-->
+
+            <div class="row">
+        <p id="f1" class="footnote-entry">
+          <div class="col-lg-1">&sup3;</div> 
+          <div class="col-lg-11">
+            <strong class="footnote-title"> Progressive Policy Institute</strong>
+            <span class="source">Ryan Craig</span>, <a href="https://www.progressivepolicy.org/wp-content/uploads/2019/03/SkillsGapFinal.pdf" target="_blank">America’s Skills Gap: Why It’s Real, And Why It Matters</a>
             </div>
         </p>
       </div><!--end  row-->
@@ -161,16 +193,20 @@
 <script>
   
 // Hero Timed Fade-ins
-$('#hero').delay(500).animate({'opacity':'1'},2000);
-$('.hero-h1').delay(700).animate({'opacity':'1'},2200);
-$('.btn-get-started.top').delay(1500).animate({'opacity':'1'},1000);
-$('.caret-link').delay(3500).animate({'opacity':'1'},2000);
+// $('#hero').delay(500).animate({'opacity':'1'},2000);
+// $('.hero-h1').delay(700).animate({'opacity':'1'},2200);
+// $('.btn-get-started.top').delay(1500).animate({'opacity':'1'},1000);
+// $('.caret-link').delay(3500).animate({'opacity':'1'},2000);
 
 // Footnotes Expand
 $('.visible-footnotes').click(function(){
     $(this).find('.hidden-footnotes').slideToggle();
 });
 
+// Initialize SmoothScroll
+var scroll = new SmoothScroll('a[href*="#"]', {
+  speed: 1300
+});
 
 </script>
 
