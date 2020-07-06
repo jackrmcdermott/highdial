@@ -260,9 +260,17 @@ section.request {
 
 footer {
 	background: $light-gray;
+	color: $gray;
+	font-weight: 500;
+	font-size: 0.7em;
+
+	.credits {
+		margin-top: 6px;
+	}
 
 	img.icon {
-		width: 40px;
+		margin-top: 2px;
+		width: 36px;
 	}
 }
 

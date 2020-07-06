@@ -197,9 +197,16 @@ section.request .typeform-widget {
 --------------------------------------------------------------*/
 footer {
   background: #F5F5F7;
+  color: #78787D;
+  font-weight: 500;
+  font-size: 0.7em;
+}
+footer .credits {
+  margin-top: 6px;
 }
 footer img.icon {
-  width: 40px;
+  margin-top: 2px;
+  width: 36px;
 }
 
 /*--------------------------------------------------------------
