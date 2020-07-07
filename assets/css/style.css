@@ -295,7 +295,7 @@
   font-size: 20px;
 }
 
-#hero .btn-get-started {
+/*#hero .btn-get-started {
   font-weight: 600;
   font-size: 14px;
   display: inline-block;
@@ -303,7 +303,7 @@
   border-radius: 3px;
   transition: 0.5s;
   margin-top: 25px;
-}
+}*/
 
 @media (max-width: 991px) {
   #hero {

@@ -43,6 +43,29 @@ p {
 	line-height: 1.6em;
 }
 
+.btn-get-started {
+  	display: inline-block;
+ 	padding: 12px 24px;
+ 	margin: 30px 0px;
+	font-weight: 600;
+	border-radius: 24px;
+	color: white;
+ 	font-size: .9em;
+	background: $blue;
+	box-shadow: $soft-btn-shadow;
+
+ 	&:hover {
+  		background-color: lighten($blue, 15%);
+  		transition: all ease-in .15s;
+  		color: white;
+  	}
+
+	.btn-caret-right {
+		padding-left: 6px;
+		transition: all ease-in .15s;
+	}
+}
+
 
 
 /*--------------------------------------------------------------
@@ -57,28 +80,12 @@ p {
   padding-top: 0px;
   margin-bottom: 120px;
 
-	.btn-get-started {
-		 margin-top: 46px;
-		 font-weight: 600;
-		 border-radius: 24px;
-		 color: white;
-		 font-size: .9em;
-		 background: $blue;
-		 box-shadow: $soft-btn-shadow;
-
-	 	&:hover {
-	  		background-color: lighten($blue, 15%);
-	  		transition: all ease-in .1s;
-	  	}
-	
-		.btn-caret-right {
-			padding-left: 4px;
-			transition: all ease-in .2s;
-		}
-	}
-
 	.hero-h1 {
 		margin-top: 0px;
+	}
+
+	.btn-get-started {
+		margin-top: 45px;
 	}
 
 	.caret-link {
@@ -134,7 +141,7 @@ p {
 --------------------------------------------------------------*/
 
 section.main {
-	height: 90vh;
+	height: 80vh;
 
 	.row {
 		margin: auto;
@@ -160,6 +167,7 @@ section.main {
 
 	b {
 		color: $blue;
+		font-weight: 700;
 	}
 
 	.img-fluid {
@@ -174,9 +182,30 @@ section.main {
 		}
 	}
 
-
 }
 
+/*--------------------------------------------------------------
+# Join Section
+--------------------------------------------------------------*/
+
+section.join {
+	text-align: center;
+	height: 400px;
+	padding: 20px 0px;
+
+	h2 {
+		font-weight: 700;
+		font-size: 2.1em;
+	}
+
+	h4 {
+		color: $blue;
+		font-weight: 700;
+		font-size: 1.1em;
+		margin: 20px 0px 10px;
+
+	}
+}
 
 
 /*--------------------------------------------------------------
@@ -218,8 +247,7 @@ section.footnotes {
 		
 		&:first-child {
 			margin-top: 20px;
-		}
-	
+		}	
 	}
 
 	.col-lg-1 {
@@ -267,6 +295,7 @@ section.footnotes {
 	}
 	.hidden-footnotes {
 		display: none;
+		padding-bottom: 20px;
 	}
 }
 
@@ -339,15 +368,14 @@ footer {
 		margin-top: -70px;
 	}
 
- @media (max-width: 768px) { 
-	.splash-logo {
-		width: 85%;
-		padding-right: 10px;
-		padding-bottom: 0px;
-		margin-top: -100px;
-	}
- }
-
+ 	@media (max-width: 768px) { 
+		.splash-logo {
+			width: 85%;
+			padding-right: 10px;
+			padding-bottom: 0px;
+			margin-top: -100px;
+		}
+ 	}
 }
 
 

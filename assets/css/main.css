@@ -29,6 +29,27 @@ p {
   line-height: 1.6em;
 }
 
+.btn-get-started {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 30px 0px;
+  font-weight: 600;
+  border-radius: 24px;
+  color: white;
+  font-size: 0.9em;
+  background: #267AEF;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+}
+.btn-get-started:hover {
+  background-color: #6da6f4;
+  transition: all ease-in 0.15s;
+  color: white;
+}
+.btn-get-started .btn-caret-right {
+  padding-left: 6px;
+  transition: all ease-in 0.15s;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -40,25 +61,11 @@ p {
   padding-top: 0px;
   margin-bottom: 120px;
 }
-#hero .btn-get-started {
-  margin-top: 46px;
-  font-weight: 600;
-  border-radius: 24px;
-  color: white;
-  font-size: 0.9em;
-  background: #267AEF;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
-}
-#hero .btn-get-started:hover {
-  background-color: #6da6f4;
-  transition: all ease-in 0.1s;
-}
-#hero .btn-get-started .btn-caret-right {
-  padding-left: 4px;
-  transition: all ease-in 0.2s;
-}
 #hero .hero-h1 {
   margin-top: 0px;
+}
+#hero .btn-get-started {
+  margin-top: 45px;
 }
 #hero .caret-link {
   width: auto;
@@ -102,7 +109,7 @@ p {
 # Main Paragraph Sections
 --------------------------------------------------------------*/
 section.main {
-  height: 90vh;
+  height: 80vh;
 }
 section.main .row {
   margin: auto;
@@ -122,6 +129,7 @@ section.main h2 {
 }
 section.main b {
   color: #267AEF;
+  font-weight: 700;
 }
 section.main .img-fluid {
   margin: 0 auto;
@@ -132,6 +140,25 @@ section.main .img-fluid.wide {
 section.main .img-fluid.tall {
   max-height: 80%;
   max-width: 80%;
+}
+
+/*--------------------------------------------------------------
+# Join Section
+--------------------------------------------------------------*/
+section.join {
+  text-align: center;
+  height: 400px;
+  padding: 20px 0px;
+}
+section.join h2 {
+  font-weight: 700;
+  font-size: 2.1em;
+}
+section.join h4 {
+  color: #267AEF;
+  font-weight: 700;
+  font-size: 1.1em;
+  margin: 20px 0px 10px;
 }
 
 /*--------------------------------------------------------------
@@ -203,6 +230,7 @@ section.footnotes a:hover {
 }
 section.footnotes .hidden-footnotes {
   display: none;
+  padding-bottom: 30px;
 }
 
 /*--------------------------------------------------------------
