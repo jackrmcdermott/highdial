@@ -213,10 +213,6 @@
 // $('.btn-get-started.top').delay(1500).animate({'opacity':'1'},1000);
 // $('.caret-link').delay(3500).animate({'opacity':'1'},2000);
 
-// Footnotes Expand
-$('.visible-footnotes').click(function(){
-    $(this).find('.hidden-footnotes').slideToggle();
-});
 
 // Initialize SmoothScroll
 var scroll = new SmoothScroll('a[href*="#"]', {
@@ -235,14 +231,12 @@ $(function() {
 
 // Footnotes
 $(function() {
-  $('.btn-get-started').hover(function() {
-    $('.btn-caret-right').css('padding-left', '7px');
-  }, function() {
-    // on mouseout, reset the background colour
-    $('.btn-caret-right').css('padding-left', '4px');
-  });
+  $('a.footnote').click(function() {
+    $('.hidden-footnotes').css('display', 'inline-block');},
+    function() {
+    $('section.footnotes').css('-webkit-mask-image:','none');
+    });
 });
-
 
 
 </script>
