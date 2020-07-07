@@ -45,7 +45,7 @@
       <div class="row bg">
         <div class="col-lg-8 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h1 class="hero-h1 hidden">It's time we rebuild pathways from education to upwardly-mobile careers.</h1>
-          <div><a href="/request" class="btn-get-started top">Request your invite <span class="btn-caret-right">›</span></a></div>
+          <div><a href="#" class="btn-get-started top">Request your invite <span class="btn-caret-right">›</span></a></div>
         </div>
       </div><!-- end row -->
         <a href="#why" class="caret-link" data-scroll><p id="link">Why do we need new career pathways?</p><div id="down-caret">⌄</div></a>
@@ -93,7 +93,7 @@
           </p>
           <p>These “middle skills jobs” actually make up the majority (52%) of jobs. <b>But far too few workers have the right skills training and education needed to fill in-demand jobs.</b><a href="#f1" class="footnote" data-scroll>&sup3;</a></p>
         </div>
-        <div class="col-lg-6 pt-4 pt-lg-0 order-1 order-lg-1 d-flex flex-column justify-content-center image"><img src="/assets/img/coin.png" class="img-fluid wide" alt="Coin toss"></div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-1 order-lg-1 d-flex flex-column justify-content-center image"><img src="/assets/img/desk.png" class="img-fluid tall" alt="Coin toss"></div>
       </div><!--end row -->
     </div><!-- end container -->
   </section>
@@ -118,7 +118,7 @@
       </div><!--end  row-->
 
       <div class="row">
-        <p id="f1" class="footnote-entry">
+        <p id="f2" class="footnote-entry">
           <div class="col-lg-1">&sup2;</div> 
           <div class="col-lg-11">
             <strong class="footnote-title">Federal Reserve Bank of New York</strong>
@@ -127,8 +127,8 @@
         </p>
       </div><!--end  row-->
 
-            <div class="row">
-        <p id="f1" class="footnote-entry">
+      <div class="row">
+        <p id="f3" class="footnote-entry">
           <div class="col-lg-1">&sup3;</div> 
           <div class="col-lg-11">
             <strong class="footnote-title"> Progressive Policy Institute</strong>
@@ -142,7 +142,7 @@
 <div class="hidden-footnotes">
 
       <div class="row">
-        <p id="f1" class="footnote-entry">
+        <p id="f4" class="footnote-entry">
           <div class="col-lg-1">&sup3;</div> 
           <div class="col-lg-11">
             <strong class="footnote-title"> Progressive Policy Institute</strong>
@@ -152,7 +152,7 @@
       </div><!--end  row-->
 
       <div class="row">
-        <p id="f1" class="footnote-entry">
+        <p id="f5" class="footnote-entry">
           <div class="col-lg-1">&#x2074;</div> 
           <div class="col-lg-11">
             <strong class="footnote-title"> Progressive Policy Institute</strong>
@@ -161,8 +161,8 @@
         </p>
       </div><!--end  row-->
 
-            <div class="row">
-        <p id="f1" class="footnote-entry">
+      <div class="row">
+        <p id="f6" class="footnote-entry">
           <div class="col-lg-1">&#x2075;</div> 
           <div class="col-lg-11">
             <strong class="footnote-title"> Progressive Policy Institute</strong>
@@ -220,7 +220,7 @@ $('.visible-footnotes').click(function(){
 
 // Initialize SmoothScroll
 var scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 1300
+  speed: 1100
 });
 
 // Hover Button Caret Right
@@ -233,14 +233,17 @@ $(function() {
   });
 });
 
+// Footnotes
 $(function() {
-  $('.caret-link').hover(function() {
+  $('.btn-get-started').hover(function() {
     $('.btn-caret-right').css('padding-left', '7px');
   }, function() {
     // on mouseout, reset the background colour
     $('.btn-caret-right').css('padding-left', '4px');
   });
 });
+
+
 
 </script>
 

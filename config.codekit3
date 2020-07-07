@@ -74,6 +74,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/desk.png": {
+		"ft": 32768,
+		"iS": 500099,
+		"oA": 0,
+		"oAP": "/assets/img/desk.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/img/favicon/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 8208,

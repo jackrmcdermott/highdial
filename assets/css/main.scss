@@ -6,10 +6,13 @@ $gray: #6c6c70; //paragraph text
 
 $main-font: "Montserrat", sans-serif;
 
+
 $soft-btn-shadow: 0px 2px 15px rgba(0,0,0,0.15);
 
 
 body {
+	font-family: $main-font;
+	color: $black;
 	margin: 0;
     padding: 0;
     letter-spacing: -0.01em;
@@ -30,6 +33,7 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
 	color: $black;
+	letter-spacing: -0.02em;
 }
 
 p {
@@ -327,7 +331,6 @@ footer {
 	background-image: url('/assets/img/yosemite.jpg');
   	background-size: cover;
   	background-repeat: no-repeat;
-
 
 	.splash-logo {
 		width: 50%;
