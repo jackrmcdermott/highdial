@@ -186,12 +186,12 @@ section.main {
 // In-line footnote
 .footnote {
 	font-weight: 600;
-	padding: 2px 5px;
+	padding: 4px 0px 4px 6px;
 	color: $blue;
 }
 
 section.footnotes {
-	padding: 30px 0px 15px;
+	padding: 60px 0px 15px;
 	width: 80%;
 	margin: 0 auto;
 
@@ -200,7 +200,7 @@ section.footnotes {
     color-stop(0.00,  rgba(0,0,0,1)),
     color-stop(0.35,  rgba(0,0,0,0.9)),
     color-stop(0.50,  rgba(0,0,0,0.7)),
-    color-stop(0.65,  rgba(0,0,0,0.4)),
+    color-stop(0.55,  rgba(0,0,0,0.4)),
     color-stop(1.00,  rgba(0,0,0,0)));
 
 	h4 {
@@ -213,7 +213,7 @@ section.footnotes {
 	}
 
 	.row {
-		margin: 30px 0px;
+		margin: 35px 0px;
 		z-index: -1;
 		
 		&:first-child {
@@ -226,6 +226,7 @@ section.footnotes {
 		max-width: 2%;
 		color: $blue;
 		font-weight: 600;
+		margin-top: -4px;
 	}
 
 	.col-lg-11 {
@@ -254,7 +255,6 @@ section.footnotes {
 	}
 
 	a {
-		margin-left: 4px;
 		font-weight: 500;
 		font-style: italic;
 		color: $black;
