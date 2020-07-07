@@ -43,10 +43,9 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container">
       <div class="row bg">
-        <!-- <div class="hero-logo"><img src="assets/img/logo-black.png" class="img-fluid" alt="Highdial"></div> -->
         <div class="col-lg-8 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1 class="hero-h1 hidden">It's time to rebuild the pathway from education to upwardly-mobile careers.</h1>
-          <div><a href="/request" class="btn-get-started top">Request your invite  &nbsp;›</a></div>
+          <h1 class="hero-h1 hidden">It's time we rebuild pathways from education to upwardly-mobile careers.</h1>
+          <div><a href="/request" class="btn-get-started top">Request your invite <span class="btn-caret-right">›</span></a></div>
         </div>
       </div><!-- end row -->
         <a href="#why" class="caret-link" data-scroll><p id="link">Why do we need new career pathways?</p><div id="down-caret">⌄</div></a>
@@ -55,36 +54,52 @@
 
 
   <!-- ======= Why Section ======= -->
-  <section class="main" id="why">
+  <section class="main d-flex align-items-center" id="why">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center text">
-          <h2>Today, upward mobility has become a coin toss.</h2>
-          <p>For decades, education has been a sure path to stable, well-paying careers. In the 1940s, 90% of students could expect to out-earn their parents.
+          <h2>Today, upward mobility is a coin toss.</h2>
+          <p>For decades, education was a sure path to stable, well-paying careers. In the 1940s, 90% of children could expect to out-earn their parents.
           </p>
-          <p>Today, students have only a 50% chance of realizing a career that will enable them to out-earn their parents—and low-income, first-generation, and minority students have an even steeper climb to maximize their career earnings potential.<a href="#f1" class="footnote" data-scroll>&sup1;</a></p>
+          <p><b>Students now have only a 50% chance of out-earning their parents</b>—and low-income, first-generation, and minority students have an even steeper climb to maximize their career earnings potential.<a href="#f1" class="footnote" data-scroll>&sup1;</a></p>
         </div>
-        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center image"><img src="/assets/img/coin.png" class="img-fluid wide" alt="Coin toss"></div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-1 order-lg-1 d-flex flex-column justify-content-center image"><img src="/assets/img/coin.png" class="img-fluid wide" alt="Coin toss"></div>
       </div><!--end row -->
     </div><!-- end container -->
   </section>
 
   <!-- ======= Why Section ======= -->
-  <section class="main" id="why">
+  <section class="main d-flex align-items-center">
     <div class="container">
       <div class="row">
+        <div class="col-lg-6 pt-4 pt-lg-0 order-1 order-lg-1 d-flex flex-column justify-content-center image"><img src="/assets/img/worker.png" class="img-fluid tall" alt="Coin toss"></div>
         <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center text">
-          <h2>Most workers will enter their career without a </br>4-year college degree.</h2>
-          <p>As technological change has disrupted industries, schools have struggled to keep pace in preparing skilled workers. 3+ million students now enter the workforce without a four-year college degree each year.</p>
+          <h2>Most workers will enter their career without a 4-year college degree.</h2>
+          <p>As technological change disrupts industries, schools have struggled to keep pace in preparing skilled workers. <b>3+ million young adults now enter the workforce without a college degree each year.</b></p>
           <p>
-          Most young adults will pursue a college degree, but 45% who start don’t finish. Along the way, students have amassed $1.5 trillion in student loan debt. Even those who do graduate start their career with $30,000 in debt on average.<a href="#f2" class="footnote" data-scroll>&sup2;</a></p>
+          Most young adults will pursue college, but only 55% will graduate. Along the way, students have amassed $1.5 trillion in student loan debt. <b>Even those who do graduate start their career with $30,000 in debt on average.</b><a href="#f2" class="footnote" data-scroll>&sup2;</a></p>
         </div>
-        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center image"><img src="/assets/img/worker.png" class="img-fluid tall" alt="Coin toss"></div>
       </div><!--end row -->
     </div><!-- end container -->
   </section>
 
-<!-- ======= Why Footnotes ======= -->
+  <!-- ======= Why Section ======= -->
+  <section class="main d-flex align-items-center" id="why">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center text">
+          <h2>Still, millions of well-paying jobs go unfilled every year.</h2>
+          <p><b>More than 7 million jobs will go unfilled in the US this year.</b> Nearly half (46%) of employers report talent shortages for jobs that require skills training or education above a high school diploma, but not a 4-year college degree.
+          </p>
+          <p>These “middle skills jobs” actually make up the majority (52%) of jobs. <b>But far too few workers have the right skills training and education needed to fill in-demand jobs.</b><a href="#f1" class="footnote" data-scroll>&sup3;</a></p>
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-1 order-lg-1 d-flex flex-column justify-content-center image"><img src="/assets/img/coin.png" class="img-fluid wide" alt="Coin toss"></div>
+      </div><!--end row -->
+    </div><!-- end container -->
+  </section>
+
+
+<!-- ======= Footnotes ======= -->
   <section class="footnotes">
     <div class="container">
 
@@ -206,6 +221,25 @@ $('.visible-footnotes').click(function(){
 // Initialize SmoothScroll
 var scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1300
+});
+
+// Hover Button Caret Right
+$(function() {
+  $('.btn-get-started').hover(function() {
+    $('.btn-caret-right').css('padding-left', '7px');
+  }, function() {
+    // on mouseout, reset the background colour
+    $('.btn-caret-right').css('padding-left', '4px');
+  });
+});
+
+$(function() {
+  $('.caret-link').hover(function() {
+    $('.btn-caret-right').css('padding-left', '7px');
+  }, function() {
+    // on mouseout, reset the background colour
+    $('.btn-caret-right').css('padding-left', '4px');
+  });
 });
 
 </script>
