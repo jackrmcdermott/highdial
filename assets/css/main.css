@@ -258,7 +258,14 @@ footer img.icon {
   width: 50%;
   margin: 0 auto;
   padding-right: 20px;
-  padding-bottom: 20px;
+  margin-top: -50px;
+}
+@media (max-width: 768px) {
+  #splash .splash-logo {
+    width: 80%;
+    padding-right: 10px;
+    padding-bottom: 0px;
+  }
 }
 
 /*--------------------------------------------------------------

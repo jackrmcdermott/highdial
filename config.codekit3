@@ -251,6 +251,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/white.png": {
+		"ft": 32768,
+		"iS": 3810,
+		"oA": 0,
+		"oAP": "/assets/img/white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/img/worker.png": {
 		"ft": 32768,
 		"iS": 454067,
@@ -264,7 +275,7 @@
 		},
 	"/assets/img/yosemite.jpg": {
 		"ft": 16384,
-		"iS": 1886925,
+		"iS": 715612,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/yosemite.jpg",
@@ -993,14 +1004,6 @@
 		"oAP": "/CNAME",
 		"oF": 0
 		},
-	"/extra.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/extra.html",
-		"oF": 0
-		},
 	"/home/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1044,12 +1047,28 @@
 		"oAP": "/request/index.html",
 		"oF": 0
 		},
-	"/sample.html": {
+	"/test/extra.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/sample.html",
+		"oAP": "/test/extra.html",
+		"oF": 0
+		},
+	"/test/go-clearbit.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/test/go-clearbit.html",
+		"oF": 0
+		},
+	"/test/sample.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/test/sample.html",
 		"oF": 0
 		}
 	},
