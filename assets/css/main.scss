@@ -3,6 +3,7 @@ $blue: #267AEF;
 $black: #1d1d1f; //headerss 
 $light-gray: #F5F5F7; //backgrounds 
 $gray: #6c6c70; //paragraph text
+$teal: #00DEAB; //accent color
 
 $main-font: "Montserrat", sans-serif;
 
@@ -100,11 +101,13 @@ p {
 
 		p#link {
 			margin-bottom: 5px;
-			color: $blue;
+			color: $black;
+			font-weight: 700;
 		}
 
 		div#down-caret {
 			background-color: $blue;
+			background-color: $teal;
 			height: 32px;
 			width: 32px;
 			line-height: 1.5em;
@@ -120,12 +123,12 @@ p {
 
 		&:hover {
 			p#link {
-				color: lighten($blue, 15%);
+				color: lighten($black, 30%);
 	  			transition: all ease-in .1s;
 			}
 
 			div#down-caret {
-				background-color: lighten($blue, 15%);
+				background-color: lighten($teal, 3%);
 	  			transform: translate(0px, 3px);
 	  			transition: all ease-in .2s;
 			}
@@ -166,8 +169,12 @@ section.main {
 	}
 
 	b {
-		color: $blue;
+		color: $black;
 		font-weight: 700;
+	}
+
+	.highlight {
+	    border-bottom: 6px solid rgba($teal,.5);
 	}
 
 	.img-fluid {
@@ -214,15 +221,19 @@ section.join {
 
 // In-line footnote
 .footnote {
-	font-weight: 600;
+	font-weight: 700;
 	padding: 4px 0px 4px 6px;
 	color: $blue;
+	font-size: 50%;
+	position: relative;
+	top: -6px;
 }
 
 section.footnotes {
 	padding: 60px 0px 15px;
 	width: 80%;
 	margin: 0 auto;
+	cursor: pointer;
 
   -webkit-mask-image: -webkit-gradient(
     linear, center top, center bottom, 
@@ -244,7 +255,7 @@ section.footnotes {
 	.row {
 		margin: 35px 0px;
 		z-index: -1;
-		
+
 		&:first-child {
 			margin-top: 20px;
 		}	
@@ -386,14 +397,5 @@ footer {
 // .hero-h1, .btn-get-started.top, .caret-link, #hero {
 // 	opacity: 0;
 // }
-
-.highlight {
-	width: 300px;
-    height: 12px;
-    margin-top: -20px;
-    background-color: #ffd673;
-    opacity: 0.9;
-    z-index: -9;
-}
 
 
