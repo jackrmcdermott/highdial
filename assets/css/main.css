@@ -151,8 +151,9 @@ section.main .img-fluid.tall {
 --------------------------------------------------------------*/
 section.join {
   text-align: center;
-  height: 400px;
+  height: 360px;
   padding: 20px 0px;
+  border: 1px solid red;
 }
 section.join h2 {
   font-weight: 700;
