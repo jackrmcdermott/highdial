@@ -105,6 +105,23 @@ p {
   transform: translate(0px, 3px);
   transition: all ease-in 0.2s;
 }
+@media (max-width: 576px) {
+  #hero {
+    height: 90vh;
+    background-size: 140%;
+    background-position: 85% 96%;
+    background-repeat: no-repeat;
+  }
+  #hero .hero-h1 {
+    margin-top: 0px;
+  }
+  #hero .btn-get-started {
+    margin-top: 25px;
+  }
+  #hero .caret-link {
+    bottom: 70px;
+  }
+}
 
 /*--------------------------------------------------------------
 # Main Paragraph Sections
@@ -145,6 +162,12 @@ section.main .img-fluid.tall {
   max-height: 80%;
   max-width: 80%;
 }
+@media (max-width: 576px) {
+  section.main {
+    height: 100%;
+    padding: 20px 0px;
+  }
+}
 
 /*--------------------------------------------------------------
 # Join Section
@@ -153,7 +176,6 @@ section.join {
   text-align: center;
   height: 360px;
   padding: 20px 0px;
-  border: 1px solid red;
 }
 section.join h2 {
   font-weight: 700;
@@ -164,6 +186,11 @@ section.join h4 {
   font-weight: 700;
   font-size: 1.1em;
   margin: 20px 0px 10px;
+}
+@media (max-width: 576px) {
+  section.join {
+    height: 480px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -241,6 +268,12 @@ section.footnotes .hidden-footnotes {
   display: none;
   padding-bottom: 20px;
 }
+@media (max-width: 576px) {
+  section.footnotes {
+    width: 100%;
+    padding: 30px 20px;
+  }
+}
 
 /*--------------------------------------------------------------
 # Request Section
@@ -280,6 +313,11 @@ footer img.icon {
   margin-top: 2px;
   width: 36px;
 }
+@media (max-width: 576px) {
+  footer img.icon {
+    margin-top: 2px;
+  }
+}
 
 /*--------------------------------------------------------------
 # Splash  
@@ -310,3 +348,16 @@ footer img.icon {
 /*--------------------------------------------------------------
 # JS/jQuery Styles 
 --------------------------------------------------------------*/
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+*/

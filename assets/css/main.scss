@@ -135,6 +135,26 @@ p {
 		}
 	}
 
+	@media (max-width: 576px) {
+		height: 90vh;
+		background-size: 140%;
+  		background-position: 85% 96%;
+  		background-repeat: no-repeat;
+
+		.hero-h1 {
+			margin-top: 0px;
+		}
+
+		.btn-get-started {
+			margin-top: 25px;
+		}
+
+		.caret-link {
+			bottom: 70px;
+		}
+
+	} // end mobile 
+
 }
 
 
@@ -157,7 +177,6 @@ section.main {
 	}
 
 	.image {
-		//border: 1px solid blue;
 		text-align: center;
 	}
 
@@ -189,6 +208,11 @@ section.main {
 		}
 	}
 
+	@media (max-width: 576px) {
+		height: 100%;
+		padding: 20px 0px;
+	}
+
 }
 
 /*--------------------------------------------------------------
@@ -198,8 +222,7 @@ section.main {
 section.join {
 	text-align: center;
 	height: 360px;
-	padding: 20px 0px;
-	border: 1px solid red;	
+	padding: 20px 0px;	
 
 	h2 {
 		font-weight: 700;
@@ -213,6 +236,11 @@ section.join {
 		margin: 20px 0px 10px;
 
 	}
+
+	@media (max-width: 576px) {
+		height: 480px;
+	}
+
 }
 
 
@@ -309,6 +337,12 @@ section.footnotes {
 		display: none;
 		padding-bottom: 20px;
 	}
+
+	@media (max-width: 576px) {
+		width: 100%;
+		padding: 30px 20px;
+	}
+
 }
 
 
@@ -358,6 +392,13 @@ footer {
 		margin-top: 2px; 
 		width: 36px;
 	}
+
+	@media (max-width: 576px) {
+		img.icon {
+			margin-top: 2px;
+		}
+	}
+
 }
 
 
@@ -400,3 +441,19 @@ footer {
 // }
 
 
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+*/
