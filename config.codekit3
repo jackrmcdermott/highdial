@@ -63,6 +63,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/coin.jpg": {
+		"ft": 16384,
+		"iS": 642143,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/coin.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/img/coin.png": {
 		"ft": 32768,
 		"iS": 216107,
@@ -72,6 +83,17 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/desk.jpg": {
+		"ft": 16384,
+		"iS": 405420,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/desk.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/assets/img/desk.png": {
@@ -218,6 +240,28 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/assets/img/learn.jpg": {
+		"ft": 16384,
+		"iS": 572750,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/learn.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/learn.png": {
+		"ft": 32768,
+		"iS": 485025,
+		"oA": 0,
+		"oAP": "/assets/img/learn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/img/logo-black.png": {
 		"ft": 32768,
 		"iS": 12252,
@@ -260,6 +304,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/worker.jpg": {
+		"ft": 16384,
+		"iS": 572845,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/worker.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/assets/img/worker.png": {

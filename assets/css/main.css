@@ -79,12 +79,11 @@ p {
 }
 #hero .caret-link p#link {
   margin-bottom: 5px;
-  color: #1d1d1f;
+  color: #267AEF;
   font-weight: 700;
 }
 #hero .caret-link div#down-caret {
   background-color: #267AEF;
-  background-color: #00DEAB;
   height: 32px;
   width: 32px;
   line-height: 1.5em;
@@ -98,11 +97,11 @@ p {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
 }
 #hero .caret-link:hover p#link {
-  color: #67676e;
+  color: #5597f3;
   transition: all ease-in 0.1s;
 }
 #hero .caret-link:hover div#down-caret {
-  background-color: #00edb7;
+  background-color: #5597f3;
   transform: translate(0px, 3px);
   transition: all ease-in 0.2s;
 }
@@ -127,14 +126,14 @@ section.main h2 {
   font-weight: 700;
   font-size: 1.5em;
   margin: 15px 0px;
-  line-height: 1.3em;
+  line-height: 1.4em;
 }
 section.main b {
   color: #1d1d1f;
   font-weight: 700;
 }
 section.main .highlight {
-  border-bottom: 6px solid rgba(0, 222, 171, 0.5);
+  border-bottom: 4px solid rgba(38, 122, 239, 0.99);
 }
 section.main .img-fluid {
   margin: 0 auto;

@@ -101,13 +101,13 @@ p {
 
 		p#link {
 			margin-bottom: 5px;
-			color: $black;
+			color: $blue;
 			font-weight: 700;
 		}
 
 		div#down-caret {
 			background-color: $blue;
-			background-color: $teal;
+			//background-color: $teal;
 			height: 32px;
 			width: 32px;
 			line-height: 1.5em;
@@ -123,12 +123,12 @@ p {
 
 		&:hover {
 			p#link {
-				color: lighten($black, 30%);
+				color: lighten($blue, 10%);
 	  			transition: all ease-in .1s;
 			}
 
 			div#down-caret {
-				background-color: lighten($teal, 3%);
+				background-color: lighten($blue, 10%);
 	  			transform: translate(0px, 3px);
 	  			transition: all ease-in .2s;
 			}
@@ -165,7 +165,7 @@ section.main {
 		font-weight: 700;
 		font-size: 1.5em;
 		margin: 15px 0px;
-		line-height: 1.3em;
+		line-height: 1.4em;
 	}
 
 	b {
@@ -174,7 +174,7 @@ section.main {
 	}
 
 	.highlight {
-	    border-bottom: 6px solid rgba($teal,.5);
+	    border-bottom: 4px solid rgba($blue,.99);
 	}
 
 	.img-fluid {
