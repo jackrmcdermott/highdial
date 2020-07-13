@@ -65,7 +65,12 @@ p {
 		padding-left: 6px;
 		transition: all ease-in .15s;
 	}
-}
+
+	@media (max-width: 576px) {
+		font-size: 1.1em;
+	}
+
+}// end .btn- 
 
 
 
@@ -140,17 +145,22 @@ p {
 		background-size: 140%;
   		background-position: 85% 80%;
   		background-repeat: no-repeat;
+		background-image: none;
 
 		.hero-h1 {
-			margin-top: -120px;
+		
 		}
 
 		.btn-get-started {
-			//margin-top: 30px;
+			
 		}
 
 		.caret-link {
 			bottom: 20px;
+			width: 100%;
+			left: 0px;
+			right: 0px;
+			text-align: center;
 		}
 		
 	} // end mobile 
@@ -212,8 +222,8 @@ section.main {
 		padding: 20px 0px;
 
 		.img-fluid.wide, .img-fluid.tall {
-			max-width: 90%;
-			max-height: 90%;
+			max-width: 100%;
+			max-height: 100%;
 		}
 
 	} //end mobile

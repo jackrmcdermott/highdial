@@ -49,6 +49,11 @@ p {
   padding-left: 6px;
   transition: all ease-in 0.15s;
 }
+@media (max-width: 576px) {
+  .btn-get-started {
+    font-size: 1.1em;
+  }
+}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -111,12 +116,14 @@ p {
     background-size: 140%;
     background-position: 85% 80%;
     background-repeat: no-repeat;
-  }
-  #hero .hero-h1 {
-    margin-top: -120px;
+    background-image: none;
   }
   #hero .caret-link {
     bottom: 20px;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    text-align: center;
   }
 }
 
@@ -165,8 +172,8 @@ section.main .img-fluid.tall {
     padding: 20px 0px;
   }
   section.main .img-fluid.wide, section.main .img-fluid.tall {
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 
