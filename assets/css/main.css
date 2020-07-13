@@ -109,17 +109,14 @@ p {
   #hero {
     height: 90vh;
     background-size: 140%;
-    background-position: 85% 96%;
+    background-position: 85% 80%;
     background-repeat: no-repeat;
   }
   #hero .hero-h1 {
-    margin-top: 0px;
-  }
-  #hero .btn-get-started {
-    margin-top: 25px;
+    margin-top: -120px;
   }
   #hero .caret-link {
-    bottom: 70px;
+    bottom: 20px;
   }
 }
 
@@ -167,6 +164,10 @@ section.main .img-fluid.tall {
     height: 100%;
     padding: 20px 0px;
   }
+  section.main .img-fluid.wide, section.main .img-fluid.tall {
+    max-width: 90%;
+    max-height: 90%;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -204,6 +205,13 @@ section.join h4 {
   position: relative;
   top: -6px;
 }
+.footnote.endnote {
+  padding: 0px;
+  color: #267AEF;
+  font-weight: 700;
+  font-size: 0.65em;
+  margin-top: 2px;
+}
 
 section.footnotes {
   padding: 60px 0px 15px;
@@ -229,9 +237,6 @@ section.footnotes .row:first-child {
 }
 section.footnotes .col-lg-1 {
   max-width: 2%;
-  color: #267AEF;
-  font-weight: 600;
-  margin-top: -4px;
 }
 section.footnotes .col-lg-11 {
   line-height: 1.3em;
@@ -239,11 +244,10 @@ section.footnotes .col-lg-11 {
 section.footnotes strong.footnote-title {
   font-size: 0.7em;
   color: #6c6c70;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   display: block;
-  line-height: 0.8em;
 }
 section.footnotes span, section.footnotes a {
   font-size: 0.78em;
@@ -252,7 +256,7 @@ section.footnotes span.source {
   display: inline-block;
   color: #1d1d1f;
   font-weight: 600;
-  margin-top: 10px;
+  margin-top: 6px;
 }
 section.footnotes a {
   font-weight: 500;

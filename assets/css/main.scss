@@ -138,21 +138,21 @@ p {
 	@media (max-width: 576px) {
 		height: 90vh;
 		background-size: 140%;
-  		background-position: 85% 96%;
+  		background-position: 85% 80%;
   		background-repeat: no-repeat;
 
 		.hero-h1 {
-			margin-top: 0px;
+			margin-top: -120px;
 		}
 
 		.btn-get-started {
-			margin-top: 25px;
+			//margin-top: 30px;
 		}
 
 		.caret-link {
-			bottom: 70px;
+			bottom: 20px;
 		}
-
+		
 	} // end mobile 
 
 }
@@ -172,7 +172,6 @@ section.main {
 	}
 
 	.text {
-		//border: 1px solid green;
 		padding: 0px 30px;
 	}
 
@@ -211,7 +210,13 @@ section.main {
 	@media (max-width: 576px) {
 		height: 100%;
 		padding: 20px 0px;
-	}
+
+		.img-fluid.wide, .img-fluid.tall {
+			max-width: 90%;
+			max-height: 90%;
+		}
+
+	} //end mobile
 
 }
 
@@ -256,6 +261,14 @@ section.join {
 	font-size: 50%;
 	position: relative;
 	top: -6px;
+
+	&.endnote {
+		padding: 0px;
+		color: $blue;
+		font-weight: 700;
+		font-size: 0.65em;
+		margin-top: 2px;
+	}
 }
 
 section.footnotes {
@@ -292,9 +305,6 @@ section.footnotes {
 
 	.col-lg-1 {
 		max-width: 2%;
-		color: $blue;
-		font-weight: 600;
-		margin-top: -4px;
 	}
 
 	.col-lg-11 {
@@ -304,11 +314,10 @@ section.footnotes {
 	strong.footnote-title {
 		font-size: 0.7em;
 		color: $gray;
-		font-weight: 500;
+		font-weight: 600;
 		letter-spacing: 0.05em;
 		text-transform: uppercase;
 		display: block;
-		line-height: 0.8em;
 	}
 
 	span, a {
@@ -319,7 +328,7 @@ section.footnotes {
 		display: inline-block;
 		color: $black;
 		font-weight: 600;
-		margin-top: 10px;
+		margin-top: 6px;
 	}
 
 	a {
