@@ -231,7 +231,7 @@
 		},
 	"/assets/img/jack.jpg": {
 		"ft": 16384,
-		"iS": 80401,
+		"iS": 70325,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/jack.jpg",
@@ -286,7 +286,7 @@
 		},
 	"/assets/img/logo.png": {
 		"ft": 32768,
-		"iS": 5330,
+		"iS": 14973,
 		"oA": 0,
 		"oAP": "/assets/img/.logo~imageoptim.png",
 		"oF": 0,
@@ -1110,12 +1110,12 @@
 		"oAP": "/test/extra.html",
 		"oF": 0
 		},
-	"/test/go-clearbit.html": {
+	"/test/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/test/go-clearbit.html",
+		"oAP": "/test/index.html",
 		"oF": 0
 		},
 	"/test/sample.html": {
