@@ -1,17 +1,11 @@
 @charset "UTF-8";
-/* Blocks */
+/* Here */
 .intro-section {
   position: relative;
 }
 
 .intro-section, .intro-section .container > .row {
-  height: 90vh;
-  min-height: 600px;
-}
-
-.intro-section.single-cover, .intro-section.single-cover .container > .row {
-  height: 50vh;
-  min-height: 400px;
+  min-height: 660px;
 }
 
 .intro-section h1 {
@@ -24,6 +18,99 @@
 .intro-section p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1.1rem;
+}
+
+.form-box {
+  background: white;
+  padding: 20px 40px;
+  border-radius: 7px;
+  color: #1d1d1f;
+  max-width: 400px;
+}
+.form-box h3 {
+  font-size: 1.3em;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 0px 5px;
+}
+.form-box p {
+  color: #1d1d1f;
+  font-size: 0.9em;
+  margin: 10px 0px 15px;
+  font-weight: 500;
+  text-align: center;
+}
+.form-box label {
+  font-weight: 600;
+  font-size: 0.8em;
+  margin-bottom: 2px;
+}
+.form-box .form-group {
+  margin-bottom: 0.8rem;
+}
+.form-box input.text {
+  border: 2px solid #e7e7ec;
+  background-color: #F5F5F7;
+  color: #1d1d1f;
+  letter-spacing: -0.05em;
+  font-weight: 600;
+  height: 2.8rem;
+}
+.form-box p.form-mini-text {
+  text-align: left;
+  font-size: 0.72em;
+  font-weight: 600;
+}
+.form-box i.form-mini-icon {
+  font-size: 1.3em;
+  display: block;
+  margin-right: 15px;
+  margin-top: -8px;
+}
+.form-box .form-footer {
+  opacity: 0.5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 90%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 12px;
+  padding-left: 12px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.form-box .btn-lp {
+  width: 100%;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin: 5px 0px;
+}
+
+.main-lp h4.hero-toptitle {
+  color: white;
+  font-size: 0.9em;
+  letter-spacing: 0.07em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.main-lp h1.hero-title {
+  margin-top: 20px;
+}
+.main-lp p.hero-text {
+  color: white;
+}
+.main-lp.pharmacy-tech {
+  background-image: url("/assets/img/lp/hero_1.jpg");
 }
 
 .site-wrap:before {
@@ -656,13 +743,11 @@
   font-size: 0.7rem;
   font-weight: 900;
   display: block;
-  margin-bottom: 1.5rem;
 }
 
 .section-title {
   font-size: 3rem;
   color: #000;
-  margin-bottom: 1.8rem;
   font-weight: 900;
 }
 
@@ -687,7 +772,6 @@
   display: block;
   font-weight: 700;
   color: #000;
-  margin-bottom: 1rem;
 }
 
 .counter .counter-text span {
