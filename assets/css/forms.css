@@ -1,0 +1,8 @@
+.wufoo-form {
+  background: white;
+  padding: 40px;
+  border-radius: 7px;
+}
+.wufoo-form .info {
+  border-bottom: none;
+}
