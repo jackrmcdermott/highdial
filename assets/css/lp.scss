@@ -8,6 +8,7 @@
 .intro-section {
   position: relative; 
   border-bottom: 4px solid $light-gray;
+  color: white;
 }
   
   .intro-section h1 {
@@ -106,6 +107,60 @@
   }
 
 }
+
+
+#stats-section {
+  text-align: center;
+  background: $light-gray;
+  padding: 40px 0px;
+
+  h5 {
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: $gray;
+    opacity: 0.8;
+
+    display: none;
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 3.6em;
+    height: 75px;
+    color: $teal;
+   // color: $blue;
+    padding-bottom: 10px;
+  
+    &.small {
+      font-size: 2.6em;
+      line-height: 1.7em; 
+    }
+  }
+
+  h4 {
+    font-weight: 700;
+    font-size: 0.9em;
+   // text-transform: uppercase;
+   // letter-spacing: 0.02em;
+
+  }
+
+  img {
+    //height: 75px;
+    max-height: 75px;
+    max-width: 100%;
+    padding-bottom: 10px;
+  }
+
+  p.stats-desc {
+    font-size: 0.8em;
+    color: $black;
+  }
+}
+
 
 
 .main-lp {

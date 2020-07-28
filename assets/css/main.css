@@ -3,6 +3,7 @@
 .intro-section {
   position: relative;
   border-bottom: 4px solid #F5F5F7;
+  color: white;
 }
 
 .intro-section h1 {
@@ -93,6 +94,46 @@
   font-weight: 600;
   letter-spacing: 0.03em;
   margin: 5px 0px;
+}
+
+#stats-section {
+  text-align: center;
+  background: #F5F5F7;
+  padding: 40px 0px;
+}
+#stats-section h5 {
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6c6c70;
+  opacity: 0.8;
+  display: none;
+}
+#stats-section h3 {
+  font-weight: 700;
+  font-size: 3.6em;
+  height: 75px;
+  color: #00DEAB;
+  padding-bottom: 10px;
+}
+#stats-section h3.small {
+  font-size: 2.6em;
+  line-height: 1.7em;
+}
+#stats-section h4 {
+  font-weight: 700;
+  font-size: 0.9em;
+}
+#stats-section img {
+  max-height: 75px;
+  max-width: 100%;
+  padding-bottom: 10px;
+}
+#stats-section p.stats-desc {
+  font-size: 0.8em;
+  color: #1d1d1f;
 }
 
 .main-lp {
