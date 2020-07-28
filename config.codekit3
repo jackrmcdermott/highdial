@@ -275,6 +275,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/hero/hero1.jpg": {
+		"ft": 16384,
+		"iS": 1244187,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/hero/hero1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/hero/hero2.jpg": {
+		"ft": 16384,
+		"iS": 1111784,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/hero/hero2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/assets/img/hero/hero3.jpg": {
+		"ft": 16384,
+		"iS": 773026,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/hero/hero3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/img/icon.png": {
 		"ft": 32768,
 		"iS": 29107,
@@ -288,7 +321,7 @@
 		},
 	"/assets/img/jack.jpg": {
 		"ft": 16384,
-		"iS": 80401,
+		"iS": 70325,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/jack.jpg",
@@ -343,7 +376,7 @@
 		},
 	"/assets/img/logo.png": {
 		"ft": 32768,
-		"iS": 5330,
+		"iS": 14973,
 		"oA": 0,
 		"oAP": "/assets/img/.logo~imageoptim.png",
 		"oF": 0,
@@ -565,6 +598,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/assets/img/stamp.jpg": {
+		"ft": 16384,
+		"iS": 83156,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/stamp.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/assets/img/white.png": {

@@ -2,6 +2,7 @@
 /* Here */
 .intro-section {
   position: relative;
+  border-bottom: 4px solid #F5F5F7;
 }
 
 .intro-section h1 {
@@ -23,6 +24,7 @@
   color: #1d1d1f;
   max-width: 400px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+  border: 1px solid #F5F5F7;
 }
 .form-box h3 {
   font-size: 1.3em;
@@ -55,17 +57,17 @@
 }
 .form-box p.form-mini-text {
   text-align: left;
-  font-size: 0.72em;
-  font-weight: 600;
+  font-size: 0.7em;
+  font-weight: 500;
 }
 .form-box i.form-mini-icon {
-  font-size: 1.3em;
+  font-size: 1.2em;
   display: block;
   margin-right: 15px;
-  margin-top: -8px;
+  margin-top: -2px;
 }
 .form-box .form-footer {
-  opacity: 0.5;
+  opacity: 0.7;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -93,6 +95,10 @@
   margin: 5px 0px;
 }
 
+.main-lp {
+  background-size: cover;
+  background-position: middle center;
+}
 .main-lp .row {
   padding: 30px 0px;
 }
@@ -111,7 +117,7 @@
   color: white;
 }
 .main-lp.pharmacy-tech {
-  background-image: url("/assets/img/lp/hero_1.jpg");
+  background-image: url("/assets/img/hero/hero3.jpg");
 }
 
 .site-wrap:before {
