@@ -1,34 +1,74 @@
 @charset "UTF-8";
-/* Here */
+/*--------------------------------------------------------------
+# Imports
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero 
+--------------------------------------------------------------*/
 .intro-section {
   position: relative;
   border-bottom: 4px solid #F5F5F7;
-  color: white;
 }
-
 .intro-section h1 {
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-weight: 700;
-  color: #fff;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.4rem;
 }
-
 .intro-section p {
-  color: rgba(255, 255, 255, 0.5);
   font-size: 1.1rem;
+  color: #1d1d1f;
+  font-weight: 500;
 }
 
+.main-lp {
+  background-size: cover;
+  background-position: middle center;
+}
+.main-lp .row {
+  padding: 30px 0px;
+}
+.main-lp h4.hero-toptitle {
+  color: white;
+  font-size: 0.8em;
+  letter-spacing: 0.07em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.main-lp h1.hero-title {
+  margin-top: 10px;
+  font-size: 2.8rem;
+}
+.main-lp ul.checklist {
+  font-size: 0.8em;
+  font-weight: 500;
+  font-style: italic;
+  list-style-type: none;
+  padding-left: 6px;
+}
+.main-lp ul.checklist li {
+  margin: 0.9em 0;
+}
+.main-lp ul.checklist .fa {
+  color: #00DEAB;
+  margin-right: 6px;
+  font-size: 1.2em;
+}
+
+/*--------------------------------------------------------------
+# Form Right
+--------------------------------------------------------------*/
 .form-box {
   background: white;
   padding: 20px 40px;
   border-radius: 7px;
   color: #1d1d1f;
-  max-width: 400px;
+  max-width: 350px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
   border: 1px solid #F5F5F7;
 }
 .form-box h3 {
   font-size: 1.3em;
+  line-height: 1.35em;
   font-weight: 700;
   text-align: center;
   margin: 20px 0px 5px;
@@ -73,7 +113,6 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 90%;
   margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
@@ -90,16 +129,19 @@
 }
 .form-box .btn-lp {
   width: 100%;
-  font-size: 0.9em;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-  margin: 5px 0px;
+  font-size: 0.92em;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  margin: 5px 0px 0px;
 }
 
+/*--------------------------------------------------------------
+# Stats
+--------------------------------------------------------------*/
 #stats-section {
   text-align: center;
   background: #F5F5F7;
-  padding: 40px 0px;
+  padding: 30px 0px;
 }
 #stats-section h5 {
   margin-bottom: 30px;
@@ -114,9 +156,8 @@
 #stats-section h3 {
   font-weight: 700;
   font-size: 3.6em;
-  height: 75px;
+  height: 72px;
   color: #00DEAB;
-  padding-bottom: 10px;
 }
 #stats-section h3.small {
   font-size: 2.6em;
@@ -136,31 +177,9 @@
   color: #1d1d1f;
 }
 
-.main-lp {
-  background-size: cover;
-  background-position: middle center;
-}
-.main-lp .row {
-  padding: 30px 0px;
-}
-.main-lp h4.hero-toptitle {
-  color: white;
-  font-size: 0.8em;
-  letter-spacing: 0.07em;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-.main-lp h1.hero-title {
-  margin-top: 10px;
-  font-size: 3rem;
-}
-.main-lp p.hero-text {
-  color: white;
-}
-.main-lp.pharmacy-tech {
-  background-image: url("/assets/img/hero/hero3.jpg");
-}
-
+/*--------------------------------------------------------------
+# From Template 
+--------------------------------------------------------------*/
 .site-wrap:before {
   display: none;
   -webkit-transition: 0.3s all ease-in-out;
@@ -1194,7 +1213,7 @@
 .teacher .position {
   font-size: 0.8em;
   font-weight: 600;
-  color: #6c6c70;
+  color: #1d1d1f;
 }
 
 span.blue-arrow {
@@ -1221,7 +1240,7 @@ body {
   color: #1d1d1f;
   margin: 0;
   padding: 0;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.008em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smooth: always;
@@ -1505,6 +1524,39 @@ section.footnotes .hidden-footnotes {
 }
 
 /*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+header {
+  background: #fff;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+header .logo {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+header img.brand {
+  max-height: 30px;
+  margin: 10px 0px;
+}
+header a.nav-btn {
+  color: white;
+  background: #267AEF;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 10px 26px;
+  letter-spacing: 0em;
+  border-radius: 26px;
+}
+
+/*--------------------------------------------------------------
 # Request Section
 --------------------------------------------------------------*/
 header.request .headshot-container {
@@ -1525,7 +1577,7 @@ header.request .headshot {
   z-index: 9;
   margin: 0 auto;
   margin-top: 20px;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.35);
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
 }
 @media (max-width: 576px) {
   header.request .headshot-container {
