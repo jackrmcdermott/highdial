@@ -28,7 +28,7 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
 	color: $black;
-	letter-spacing: -0.02em;
+	letter-spacing: -0.01em;
 }
 
 p {
@@ -168,6 +168,10 @@ p {
 section.main {
 	height: 80vh;
 
+	&.lp {
+		height: auto;
+	}
+
 	.row {
 		margin: auto;
 		display: flex;
@@ -182,7 +186,7 @@ section.main {
 	}
 
 	h2 {
-		font-weight: 700;
+		font-weight: 800;
 		font-size: 1.5em;
 		margin: 15px 0px;
 		line-height: 1.4em;
@@ -199,13 +203,16 @@ section.main {
 
 	.img-fluid {
 		margin: 0 auto;
+		
+		&.big {
+			max-width: 95%;
+		}
 
 		&.wide {
-			max-width: 80%;
+			max-width: 85%;
 		}
 		&.tall {
-			max-height: 80%;
-			max-width: 80%;
+			max-width: 70%;
 		}
 	}
 

@@ -120,6 +120,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/bg.png": {
+		"ft": 32768,
+		"iS": 37300,
+		"oA": 0,
+		"oAP": "/assets/img/bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/img/coin.jpg": {
 		"ft": 16384,
 		"iS": 642143,
@@ -136,6 +147,17 @@
 		"iS": 216107,
 		"oA": 0,
 		"oAP": "/assets/img/coin.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/course.png": {
+		"ft": 32768,
+		"iS": 547744,
+		"oA": 0,
+		"oAP": "/assets/img/course.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -275,34 +297,12 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/hero/hero1.jpg": {
+	"/assets/img/hero/health.jpg": {
 		"ft": 16384,
-		"iS": 1244187,
+		"iS": 3008710,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/hero/hero1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/hero/hero2.jpg": {
-		"ft": 16384,
-		"iS": 1111784,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/hero/hero2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/assets/img/hero/hero3.jpg": {
-		"ft": 16384,
-		"iS": 773026,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/hero/hero3.jpg",
+		"oAP": "/assets/img/hero/health.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -405,6 +405,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/assets/img/lp/course.png": {
+		"ft": 32768,
+		"iS": 740462,
+		"oA": 0,
+		"oAP": "/assets/img/lp/course.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/img/lp/health-partners.png": {
 		"ft": 32768,
 		"iS": 26473,
@@ -446,6 +457,39 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/lp/health-partners5.png": {
+		"ft": 32768,
+		"iS": 42172,
+		"oA": 0,
+		"oAP": "/assets/img/lp/health-partners5.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/lp/health.jpg": {
+		"ft": 16384,
+		"iS": 3198067,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/lp/health.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/lp/hero-bg.png": {
+		"ft": 32768,
+		"iS": 1514196,
+		"oA": 0,
+		"oAP": "/assets/img/lp/hero-bg.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
