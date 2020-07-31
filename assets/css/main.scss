@@ -373,7 +373,8 @@ header {
   	transition: all 0.5s;
   	z-index: 997;
   	padding: 10px 0;
-  	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  	position: relative;
+  	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
  	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.08);
 
 	.logo {
@@ -393,11 +394,17 @@ header {
 	a.nav-btn {
 		color: white;
 		background: $blue;
-		font-size: 0.85em;
-		font-weight: 600;
+		font-size: 0.8em;
+		font-weight: 700;
 		padding: 10px 26px;
 		letter-spacing: 0em;
 		border-radius: 26px;
+
+	 	&:hover {
+	  		background-color: lighten($blue, 5%);
+	  		transition: all ease-in .1s;
+	  		color: white;
+		}
 	}
 }
 

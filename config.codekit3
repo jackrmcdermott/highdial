@@ -297,15 +297,26 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/hero/health.jpg": {
+	"/assets/img/hero/nurse2.jpg": {
 		"ft": 16384,
-		"iS": 3008710,
+		"iS": 3136515,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/hero/health.jpg",
+		"oAP": "/assets/img/hero/nurse2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/assets/img/hero/nurse3.jpg": {
+		"ft": 16384,
+		"iS": 3731655,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/hero/nurse3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/img/icon.png": {
