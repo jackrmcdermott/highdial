@@ -427,6 +427,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/lp/cta-bg.png": {
+		"ft": 32768,
+		"iS": 28429,
+		"oA": 0,
+		"oAP": "/assets/img/lp/cta-bg.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/img/lp/health-partners.png": {
 		"ft": 32768,
 		"iS": 26473,
@@ -438,33 +449,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/lp/health-partners2.png": {
-		"ft": 32768,
-		"iS": 24287,
-		"oA": 0,
-		"oAP": "/assets/img/lp/health-partners2.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/assets/img/lp/health-partners3.png": {
 		"ft": 32768,
-		"iS": 42212,
+		"iS": 40682,
 		"oA": 0,
 		"oAP": "/assets/img/lp/health-partners3.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/lp/health-partners4.png": {
-		"ft": 32768,
-		"iS": 42172,
-		"oA": 0,
-		"oAP": "/assets/img/lp/health-partners4.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

@@ -198,18 +198,9 @@
 }
 
 
-section.main.lp {
-  //background-image: url('/assets/img/bg.png');
-  background-size: cover;
-
-
-}
-
-
 /*--------------------------------------------------------------
 # Stats
 --------------------------------------------------------------*/
-
 
 #stats-section {
   text-align: center;
@@ -250,6 +241,7 @@ section.main.lp {
     max-height: 35px;
     max-width: 100%;
     padding-bottom: 10px;
+    margin-top: 5px;
   }
 
   p.stats-desc {
@@ -258,6 +250,45 @@ section.main.lp {
     display: none;
   }
 }
+
+
+
+/*--------------------------------------------------------------
+# CTA Section
+--------------------------------------------------------------*/
+
+.cta-section {
+  background-size: cover;  
+  //background-image: url('/assets/img/lp/cta-bg.png');
+  background-color: $light-blue;
+  padding: 100px 0px;
+
+  h2 {
+    //color: white;
+  }
+
+  a.btn-get-started.cta {
+    font-weight: 700;
+    border-radius: 40px;
+    padding: 15px 30px;
+    margin: 20px 0px 0px;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -303,24 +334,20 @@ section.main.lp {
     box-shadow: none !important; }
   .btn.btn-black {
     border-width: 2px;
-    border-color: #000;
-    background: #000;
     color: #fff; }
     .btn.btn-black:hover {
-      color: #000;
+ 
       background-color: transparent; }
     .btn.btn-black.btn-outline-black {
-      color: #000;
+ 
       background-color: transparent; }
       .btn.btn-black.btn-outline-black:hover {
-        border-color: #000;
-        background: #000;
+       
         color: #fff; }
   .btn.btn-white {
     border-width: 2px;
     border-color: #fff;
-    background: #fff;
-    color: #000; }
+    background: #fff; }
     .btn.btn-white:hover {
       color: #fff;
       background-color: transparent; }
@@ -330,7 +357,7 @@ section.main.lp {
       .btn.btn-white.btn-outline-white:hover {
         border-color: #fff;
         background: #fff;
-        color: #000; }
+    }
   .btn.btn-pill {
     border-radius: 30px; }
 
@@ -365,8 +392,7 @@ section.main.lp {
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important; }
   .site-footer p {
     color: #737373; }
-  .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
-    color: #000; }
+  .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 { }
   .site-footer a {
     color: #999999; }
     .site-footer a:hover {
@@ -375,14 +401,10 @@ section.main.lp {
     margin-bottom: 10px; }
   .site-footer .footer-heading {
     font-size: 16px;
-    color: #000;
     text-transform: uppercase;
     font-weight: 900; }
 
 .bg-text-line {
-  display: inline;
-  background: #000;
-  -webkit-box-shadow: 20px 0 0 #000, -20px 0 0 #000;
   box-shadow: 20px 0 0 #000, -20px 0 0 #000; }
 
 .text-white-opacity-05 {
@@ -639,7 +661,7 @@ section.main.lp {
           visibility: visible;
           opacity: 1; }
     .site-navbar .site-navigation .site-menu.site-menu-dark > li > a {
-      color: #000; }
+  }
 
 .img-absolute {
   position: absolute;
@@ -676,17 +698,15 @@ section.main.lp {
       margin-top: 0px; }
 
 .site-section {
-  padding: 4em 0;
+  padding: 2em 0;
   position: relative; }
   @media (max-width: 991.98px) {
     .site-section {
       padding: 4em 0; } }
 
 .cta a span {
-  border-color: #7971ea;
   padding: 14px 20px;
   color: #fff;
-  background: #7971ea;
   border-radius: 30px;
   font-size: .7rem;
   font-weight: 900;
@@ -708,7 +728,6 @@ section.main.lp {
     color: #fff; }
 
 .section-sub-title {
-  color: #7971ea;
   text-transform: uppercase;
   font-size: .7rem;
   font-weight: 900;
@@ -716,8 +735,7 @@ section.main.lp {
 
 .section-title {
   font-size: 2rem;
-  color: #000;
-  font-weight: 900;
+  font-weight: 700;
   margin-bottom: 10px; }
   @media (max-width: 991.98px) {
     .section-title {
@@ -734,8 +752,7 @@ section.main.lp {
   line-height: .5;
   font-size: 3.5rem;
   display: block;
-  font-weight: 700;
-  color: #000; }
+  font-weight: 700; }
 
 .counter .counter-text span {
   font-size: 1rem;
@@ -873,7 +890,6 @@ section.main.lp {
     font-size: .9rem;
     letter-spacing: .1rem;
     text-transform: uppercase;
-    color: #000;
     margin-bottom: 1.5rem;
     font-weight: 900; }
   .footer-section .footer-links li {
@@ -905,7 +921,6 @@ section.main.lp {
     font-weight: 900; }
   .process h3, .service h3 {
     font-size: 1.5rem;
-    color: #000;
     font-weight: 700;
     margin-bottom: 1.5rem; }
 
@@ -1019,13 +1034,14 @@ section.main.lp {
     margin-top: 10px; }
   
   .teacher h3 {
-    margin: 5px;
+    margin: 10px 0px 7px;
     font-size: 0.9rem;
     font-weight: 700; }
   
   .teacher .position {
-    font-size: 0.8em;
-    font-weight: 600;
+    font-size: 0.7em;
+    font-weight: 500;
+    font-style: italic;
     color: $black;
   }
 

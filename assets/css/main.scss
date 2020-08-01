@@ -29,6 +29,7 @@ a {
 h1, h2, h3, h4, h5, h6 {
 	color: $black;
 	letter-spacing: -0.01em;
+	font-weight: 700;
 }
 
 p {
@@ -48,8 +49,8 @@ p {
 	box-shadow: $soft-btn-shadow;
 
  	&:hover {
-  		background-color: lighten($blue, 15%);
-  		transition: all ease-in .15s;
+  		background-color: darken($blue, 10%);
+  		transition: all ease-in .1s;
   		color: white;
   	}
 
@@ -185,16 +186,26 @@ section.main {
 		text-align: center;
 	}
 
+	h1 {
+	  font-size: 1.9rem;
+	  font-weight: 700;
+	  margin-bottom: 10px; 
+	}
+
 	h2 {
-		font-weight: 800;
 		font-size: 1.5em;
 		margin: 15px 0px;
-		line-height: 1.4em;
+		line-height: 1.3em;
 	}
 
 	b {
 		color: $black;
 		font-weight: 700;
+	}
+
+	a.cta-link {
+		font-weight: 700;
+		font-size: 0.9em;
 	}
 
 	.highlight {
@@ -348,7 +359,7 @@ section.footnotes {
 		
 		&:hover {
 			color: $blue;
-			transition: all ease-in .2s;
+			transition: all ease-in .1s;
 		}
 	}
 	.hidden-footnotes {
@@ -472,13 +483,13 @@ section.request {
 
 footer {
 	background: $light-gray;
-	color: $gray;
-	font-weight: 500;
-	font-size: 0.7em;
+	font-weight: 700;
+	font-size: 0.6em;
 	padding-bottom: 20px;
 
 	.credits {
 		margin-top: 6px;
+		opacity: 0.7;
 	}
 
 	img.icon {
