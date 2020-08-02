@@ -74,6 +74,28 @@
   margin-right: 6px;
   font-size: 1.2em;
 }
+@media (max-width: 576px) {
+  .main-lp {
+    background: none;
+  }
+  .main-lp .left {
+    padding-right: 15px;
+    padding-bottom: 0px;
+  }
+  .main-lp .row {
+    padding: 10px 0px;
+  }
+  .main-lp h1.hero-title {
+    line-height: 1.3em;
+  }
+  .main-lp ul.checklist .fa {
+    margin-right: 2px;
+  }
+  .main-lp .btn-get-started.lp {
+    font-size: 1.2em;
+    margin: 10px 0px 20px;
+  }
+}
 
 /*--------------------------------------------------------------
 # Form Right
@@ -201,13 +223,41 @@
   color: #1d1d1f;
   display: none;
 }
+@media (max-width: 576px) {
+  #stats-section .hide {
+    display: none;
+  }
+  #stats-section .col-xs-3 {
+    padding: 10px;
+  }
+}
 
 /*--------------------------------------------------------------
-# CTA Section
+# Main Section
+--------------------------------------------------------------*/
+@media (max-width: 576px) {
+  section.main.lp {
+    padding: 30px 0px 40px;
+  }
+  section.main.lp a.cta-link {
+    font-size: 1em;
+  }
+}
+
+/*--------------------------------------------------------------
+# Teachers Section
 --------------------------------------------------------------*/
 .site-section#teachers-section {
   background-color: #E5F1FF;
   padding: 80px 0px 40px;
+}
+@media (max-width: 576px) {
+  .site-section#teachers-section {
+    padding: 60px 0 40px;
+  }
+  .site-section#teachers-section .teacher {
+    padding: 0px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -220,11 +270,21 @@
   background-size: 110px;
   background-position: 14% 15%;
 }
+.cta-section h2 {
+  line-height: 1.4em;
+}
 .cta-section a.btn-get-started.cta {
   font-weight: 700;
   border-radius: 40px;
   padding: 15px 30px;
   margin: 20px 0px 0px;
+}
+@media (max-width: 576px) {
+  .cta-section {
+    padding: 110px 0px 30px;
+    background-size: 70px;
+    background-position: center 8%;
+  }
 }
 
 /*--------------------------------------------------------------

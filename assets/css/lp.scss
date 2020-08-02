@@ -83,6 +83,7 @@
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
+    
     li {
       margin: 0.5em 0;
       display: inline-block;
@@ -95,7 +96,37 @@
     }
   }
 
-}
+@media (max-width: $sm-screen) {
+  background: none;
+
+  .left {
+    padding-right: 15px;
+    padding-bottom: 0px;
+  }
+
+  .row {
+    padding: 10px 0px;
+  }
+
+  h1.hero-title {
+    line-height: 1.3em;
+  }
+
+  ul.checklist {
+     .fa {
+      margin-right: 2px;
+    }
+  }
+
+  .btn-get-started.lp {
+    font-size: 1.2em;
+    margin: 10px 0px 20px;
+  }
+
+}//end mobile
+
+
+} //end section 
 
 
 
@@ -245,18 +276,53 @@
     color: $black;
     display: none;
   }
+
+  @media (max-width: $sm-screen) { 
+    .hide {
+      display: none;
+    }
+    .col-xs-3 {
+      padding: 10px;
+    }
+
+  }//end mobile
+
 }
 
 
+/*--------------------------------------------------------------
+# Main Section
+--------------------------------------------------------------*/
 
+section.main.lp {
+  
+  @media (max-width: $sm-screen) { 
+    padding: 30px 0px 40px;
+
+    a.cta-link {
+      font-size: 1em;
+    }
+
+  }//end mobile 
+}
 
 /*--------------------------------------------------------------
-# CTA Section
+# Teachers Section
 --------------------------------------------------------------*/
 
 .site-section#teachers-section {
   background-color: $light-blue;
   padding: 80px 0px 40px;
+
+
+  @media (max-width: $sm-screen) { 
+    padding: 60px 0 40px;
+
+    .teacher {
+      padding: 0px;
+    }
+  }
+
 }
 
 
@@ -273,7 +339,7 @@
   background-position: 14% 15%;
   
   h2 {
-    //color: white;
+    line-height: 1.4em;
   }
 
   a.btn-get-started.cta {
@@ -282,6 +348,13 @@
     padding: 15px 30px;
     margin: 20px 0px 0px;
   }
+
+  @media (max-width: $sm-screen) { 
+    padding: 110px 0px 30px;
+    background-size: 70px;
+    background-position: center 8%;
+    
+  }//end mobile
 
 }
 
