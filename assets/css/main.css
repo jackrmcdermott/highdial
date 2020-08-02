@@ -21,8 +21,7 @@
 
 .main-lp {
   background-size: cover;
-  background-image: url("/assets/img/hero/nurse.jpg");
-  background-image: url("/assets/img/hero/nurse.jpg");
+  background-image: url("/assets/img/hero/work.jpg");
 }
 .main-lp .left {
   padding-right: 40px;
@@ -53,7 +52,7 @@
 .main-lp .btn-get-started.lp {
   margin: 1.5em auto 1.8em;
   font-weight: 700;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 .main-lp ul.checklist {
   font-size: 0.8em;
@@ -215,18 +214,11 @@
 # CTA Section
 --------------------------------------------------------------*/
 .cta-section {
-  padding: 100px 0px 80px;
-}
-.cta-section .stamp {
-  float: left;
-  -webkit-transform: skewY(-20deg);
-  -moz-transform: skewY(-20deg);
-  -ms-transform: skewY(-20deg);
-  -o-transform: skewY(-20deg);
-  transform: rotate(-20deg);
-}
-.cta-section .stamp img {
-  width: 110px;
+  padding: 120px 0px 80px;
+  background-image: url("/assets/img/stamp.jpg");
+  background-repeat: no-repeat;
+  background-size: 110px;
+  background-position: 14% 15%;
 }
 .cta-section a.btn-get-started.cta {
   font-weight: 700;
@@ -1305,7 +1297,7 @@ p {
   display: inline-block;
   padding: 12px 24px;
   margin: 30px 0px;
-  font-weight: 600;
+  font-weight: 700;
   border-radius: 24px;
   color: white;
   font-size: 0.9em;
@@ -1434,7 +1426,8 @@ section.main b {
 }
 section.main a.cta-link {
   font-weight: 700;
-  font-size: 0.9em;
+  font-size: 0.8em;
+  margin: 10px 0px;
 }
 section.main .highlight {
   border-bottom: 4px solid rgba(38, 122, 239, 0.99);

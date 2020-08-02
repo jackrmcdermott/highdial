@@ -31,8 +31,8 @@
 
 .main-lp {
   background-size: cover;  
-  background-image: url('/assets/img/hero/nurse.jpg');
-  background-image: url('/assets/img/hero/nurse.jpg');
+  // background-image: url('/assets/img/hero/nurse.jpg');
+  background-image: url('/assets/img/hero/work.jpg');
 
   .left {
     padding-right: 40px;
@@ -69,7 +69,7 @@
   .btn-get-started.lp {
     margin: 1.5em auto 1.8em;
     font-weight: 700;
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
 
@@ -220,7 +220,6 @@
     font-weight: 700;
     font-size: 2em;
     height: 40px;
-    //color: $teal;
     color: $blue;
   
     &.small {
@@ -267,24 +266,14 @@
 
 .cta-section {
   
-  padding: 100px 0px 80px;
-
+  padding: 120px 0px 80px;
+  background-image: url('/assets/img/stamp.jpg');
+  background-repeat: no-repeat;
+  background-size: 110px;
+  background-position: 14% 15%;
+  
   h2 {
     //color: white;
-  }
-
-  .stamp {
-   // position: absolute;
-    float: left;
-    -webkit-transform: skewY(-20deg);
-    -moz-transform: skewY(-20deg);
-    -ms-transform: skewY(-20deg);
-    -o-transform: skewY(-20deg);
-    transform: rotate(-20deg);
-
-    img {
-      width: 110px;
-    }
   }
 
   a.btn-get-started.cta {
