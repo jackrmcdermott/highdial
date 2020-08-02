@@ -21,10 +21,10 @@
 
 .main-lp {
   background-size: cover;
-  background-image: url("/assets/img/hero/work.jpg");
+  background-image: url("/assets/img/hero/nurse.jpg");
 }
 .main-lp .left {
-  padding-right: 40px;
+  padding-right: 50px;
   padding-bottom: 30px;
 }
 .main-lp h1.hero-title, .main-lp h4.hero-subtitle, .main-lp p.hero-text, .main-lp ul.checklist {
@@ -178,6 +178,9 @@
   background-color: #E5F1FF;
   padding: 80px 0px 40px;
 }
+.site-section#teachers-section b {
+  color: #267AEF;
+}
 @media (max-width: 576px) {
   .site-section#teachers-section {
     padding: 60px 0 40px;
@@ -191,7 +194,7 @@
 # CTA Section
 --------------------------------------------------------------*/
 .cta-section {
-  padding: 120px 0px 80px;
+  padding: 110px 0px 40px;
   background-image: url("/assets/img/stamp.jpg");
   background-repeat: no-repeat;
   background-size: 110px;

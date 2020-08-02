@@ -31,11 +31,11 @@
 
 .main-lp {
   background-size: cover;  
-  // background-image: url('/assets/img/hero/nurse.jpg');
-  background-image: url('/assets/img/hero/work.jpg');
+  background-image: url('/assets/img/hero/nurse.jpg');
+  //background-image: url('/assets/img/hero/work.jpg');
 
   .left {
-    padding-right: 40px;
+    padding-right: 50px;
     padding-bottom: 30px;
   }
 
@@ -230,6 +230,9 @@ section.main.lp {
   background-color: $light-blue;
   padding: 80px 0px 40px;
 
+  b {
+    color: $blue;
+  }
 
   @media (max-width: $sm-screen) { 
     padding: 60px 0 40px;
@@ -248,7 +251,7 @@ section.main.lp {
 
 .cta-section {
   
-  padding: 120px 0px 80px;
+  padding: 110px 0px 40px;
   background-image: url('/assets/img/stamp.jpg');
   background-repeat: no-repeat;
   background-size: 110px;
