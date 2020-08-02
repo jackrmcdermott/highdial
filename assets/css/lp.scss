@@ -129,9 +129,7 @@
 
 }//end mobile
 
-
 } //end section 
-
 
 
 /*--------------------------------------------------------------
@@ -206,7 +204,28 @@
 --------------------------------------------------------------*/
 
 section.main.lp {
-  
+ 
+  p.item {
+    font-size: 0.9em;
+    margin: 10px 0px;
+  }
+
+  span.number-circle {
+    background: $teal;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 0.9em;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+
+
+
   @media (max-width: $sm-screen) { 
     padding: 30px 0px 40px;
 
@@ -250,22 +269,21 @@ section.main.lp {
 --------------------------------------------------------------*/
 
 .cta-section {
-  
-  padding: 110px 0px 40px;
+  padding: 110px 0px 60px;
   background-image: url('/assets/img/stamp.jpg');
   background-repeat: no-repeat;
   background-size: 110px;
-  background-position: 14% 15%;
+  background-position: 20% 18%;
   
   h2 {
     line-height: 1.4em;
   }
 
-  a.btn-get-started.cta {
+  a.btn-get-started.lp {
     font-weight: 700;
     border-radius: 40px;
     padding: 15px 30px;
-    margin: 20px 0px 0px;
+    margin: 15px 0px;
   }
 
   @media (max-width: $sm-screen) { 
@@ -276,8 +294,6 @@ section.main.lp {
   }//end mobile
 
 }
-
-
 
 
 
@@ -1131,7 +1147,7 @@ section.main.lp {
   }
 
   span.blue-arrow {
-    color: $blue;
+    color: $teal;
     font-weight: bold;
     font-size: 1.5em;
     margin: 0px 4px;

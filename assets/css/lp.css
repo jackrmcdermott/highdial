@@ -158,6 +158,23 @@
 /*--------------------------------------------------------------
 # Main Section
 --------------------------------------------------------------*/
+section.main.lp p.item {
+  font-size: 0.9em;
+  margin: 10px 0px;
+}
+section.main.lp span.number-circle {
+  background: #00DEAB;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 0.9em;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  color: white;
+  font-weight: 600;
+  margin-right: 10px;
+}
 @media (max-width: 576px) {
   section.main.lp {
     padding: 30px 0px 40px;
@@ -194,20 +211,20 @@
 # CTA Section
 --------------------------------------------------------------*/
 .cta-section {
-  padding: 110px 0px 40px;
+  padding: 110px 0px 60px;
   background-image: url("/assets/img/stamp.jpg");
   background-repeat: no-repeat;
   background-size: 110px;
-  background-position: 14% 15%;
+  background-position: 20% 18%;
 }
 .cta-section h2 {
   line-height: 1.4em;
 }
-.cta-section a.btn-get-started.cta {
+.cta-section a.btn-get-started.lp {
   font-weight: 700;
   border-radius: 40px;
   padding: 15px 30px;
-  margin: 20px 0px 0px;
+  margin: 15px 0px;
 }
 @media (max-width: 576px) {
   .cta-section {
@@ -1315,7 +1332,7 @@
 }
 
 span.blue-arrow {
-  color: #267AEF;
+  color: #00DEAB;
   font-weight: bold;
   font-size: 1.5em;
   margin: 0px 4px;

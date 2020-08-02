@@ -100,7 +100,7 @@
 		},
 	"/assets/img/.logo~imageoptim.png": {
 		"ft": 32768,
-		"iS": 5806,
+		"iS": 5330,
 		"oA": 0,
 		"oAP": "/assets/img/.logo~imageoptim.png",
 		"oF": 0,
@@ -122,7 +122,7 @@
 		},
 	"/assets/img/coin.png": {
 		"ft": 32768,
-		"iS": 216107,
+		"iS": 3189494,
 		"oA": 0,
 		"oAP": "/assets/img/coin.png",
 		"oF": 0,
@@ -255,29 +255,29 @@
 		},
 	"/assets/img/hero/it.jpg": {
 		"ft": 16384,
-		"iS": 5046458,
+		"iS": 260994,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/hero/it.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/assets/img/hero/nurse.jpg": {
 		"ft": 16384,
-		"iS": 3731655,
+		"iS": 209434,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/hero/nurse.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/assets/img/hero/pharm.jpg": {
 		"ft": 16384,
-		"iS": 2787080,
+		"iS": 223936,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/hero/pharm.jpg",
@@ -288,7 +288,7 @@
 		},
 	"/assets/img/hero/work.jpg": {
 		"ft": 16384,
-		"iS": 3307071,
+		"iS": 238132,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/hero/work.jpg",
@@ -310,7 +310,7 @@
 		},
 	"/assets/img/jack.jpg": {
 		"ft": 16384,
-		"iS": 70325,
+		"iS": 80401,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/jack.jpg",
@@ -370,7 +370,7 @@
 		"oAP": "/assets/img/.logo~imageoptim.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -380,8 +380,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/lp/course.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -402,8 +402,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/lp/health-partners3.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -415,7 +415,7 @@
 		"oAP": "/assets/img/lp/person1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/img/lp/person2.jpg": {
@@ -453,7 +453,7 @@
 		},
 	"/assets/img/lp/person5.jpg": {
 		"ft": 16384,
-		"iS": 5631,
+		"iS": 4941,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/lp/person5.jpg",
@@ -707,7 +707,7 @@
 		"oAP": "/assets/img/stamp.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/img/white.png": {

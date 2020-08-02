@@ -3,6 +3,12 @@
 @import "site.scss";
 
 
+
+/*--------------------------------------------------------------
+# Main Elements 
+--------------------------------------------------------------*/
+
+
 body {
 	font-family: $main-font;
 	color: $black;
@@ -33,10 +39,48 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-	line-height: 1.6em;
+	line-height: 1.5em;
     font-weight: 500;
     color: $black;
 }
+
+
+
+/*--------------------------------------------------------------
+# Special Elements  
+--------------------------------------------------------------*/
+
+
+.highlight {
+	border-bottom: 5px solid rgba($teal,.5);
+ }
+
+.skew {
+    -webkit-transform: skewY(-2deg);
+    -moz-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+    -o-transform: skewY(-2deg);
+    transform: skewY(-2deg);
+}
+
+.skew.container {
+    -webkit-transform: skewY(2deg);
+    -moz-transform: skewY(2deg);
+    -ms-transform: skewY(2deg);
+    -o-transform: skewY(2deg);
+    transform: skewY(2deg);    
+  }
+
+
+span.hyp {
+  display: inline-block;
+}
+
+
+
+/*--------------------------------------------------------------
+# Main Buttons 
+--------------------------------------------------------------*/
 
 .btn-get-started {
   	display: inline-block;
@@ -195,7 +239,7 @@ section.main {
 
 	h2 {
 		font-size: 1.5em;
-		margin: 15px 0px;
+		margin: 20px 0px;
 		line-height: 1.3em;
 	}
 
@@ -549,28 +593,6 @@ footer {
 /*--------------------------------------------------------------
 # Special Styles 
 --------------------------------------------------------------*/
-
-.highlight {
-	border-bottom: 5px solid rgba($teal,.5);
- }
-
-.skew {
-    -webkit-transform: skewY(-2deg);
-    -moz-transform: skewY(-2deg);
-    -ms-transform: skewY(-2deg);
-    -o-transform: skewY(-2deg);
-    transform: skewY(-2deg);
-}
-
-.skew.container {
-    -webkit-transform: skewY(2deg);
-    -moz-transform: skewY(2deg);
-    -ms-transform: skewY(2deg);
-    -o-transform: skewY(2deg);
-    transform: skewY(2deg);    
-  }
-
-
 
 // .hero-h1, .btn-get-started.top, .caret-link, #hero {
 // 	opacity: 0;
