@@ -122,7 +122,7 @@
 		},
 	"/assets/img/coin.png": {
 		"ft": 32768,
-		"iS": 3189494,
+		"iS": 216107,
 		"oA": 0,
 		"oAP": "/assets/img/coin.png",
 		"oF": 0,
@@ -310,7 +310,7 @@
 		},
 	"/assets/img/jack.jpg": {
 		"ft": 16384,
-		"iS": 80401,
+		"iS": 70325,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/jack.jpg",
