@@ -83,10 +83,12 @@
     padding-bottom: 0px;
   }
   .main-lp .row {
-    padding: 10px 0px;
+    padding: 10px 5px;
   }
   .main-lp h1.hero-title {
-    line-height: 1.3em;
+    font-size: 2.4em;
+    line-height: 1.2em;
+    margin-top: 10px;
   }
   .main-lp ul.checklist .fa {
     margin-right: 2px;
@@ -98,7 +100,122 @@
 }
 
 /*--------------------------------------------------------------
-# Form Right
+# Stats
+--------------------------------------------------------------*/
+#stats-section {
+  text-align: center;
+  background: #F5F5F7;
+  background-color: #E5F1FF;
+  padding: 30px 0px;
+}
+#stats-section h5 {
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6c6c70;
+  opacity: 0.8;
+  display: none;
+}
+#stats-section h3 {
+  font-weight: 700;
+  font-size: 2em;
+  height: 40px;
+  color: #267AEF;
+}
+#stats-section h3.small {
+  font-size: 1.6em;
+  line-height: 1.5em;
+}
+#stats-section h4 {
+  font-weight: 700;
+  font-size: 0.8em;
+}
+#stats-section img {
+  max-height: 38px;
+  max-width: 100%;
+  padding-bottom: 10px;
+  margin-top: 5px;
+}
+#stats-section p.stats-desc {
+  font-size: 0.8em;
+  color: #1d1d1f;
+  display: none;
+}
+@media (max-width: 576px) {
+  #stats-section {
+    padding: 10px 0px;
+  }
+  #stats-section .hide {
+    display: none;
+  }
+  #stats-section .col-xs-3 {
+    padding: 10px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Main Section
+--------------------------------------------------------------*/
+@media (max-width: 576px) {
+  section.main.lp {
+    padding: 30px 0px 40px;
+  }
+  section.main.lp img.img-fluid.big {
+    overflow: hidden;
+    max-width: 110%;
+  }
+  section.main.lp a.cta-link {
+    font-size: 1em;
+  }
+}
+
+/*--------------------------------------------------------------
+# Teachers Section
+--------------------------------------------------------------*/
+.site-section#teachers-section {
+  background-color: #E5F1FF;
+  padding: 80px 0px 40px;
+}
+@media (max-width: 576px) {
+  .site-section#teachers-section {
+    padding: 60px 0 40px;
+  }
+  .site-section#teachers-section .teacher {
+    padding: 0px;
+  }
+}
+
+/*--------------------------------------------------------------
+# CTA Section
+--------------------------------------------------------------*/
+.cta-section {
+  padding: 120px 0px 80px;
+  background-image: url("/assets/img/stamp.jpg");
+  background-repeat: no-repeat;
+  background-size: 110px;
+  background-position: 14% 15%;
+}
+.cta-section h2 {
+  line-height: 1.4em;
+}
+.cta-section a.btn-get-started.cta {
+  font-weight: 700;
+  border-radius: 40px;
+  padding: 15px 30px;
+  margin: 20px 0px 0px;
+}
+@media (max-width: 576px) {
+  .cta-section {
+    padding: 110px 0px 30px;
+    background-size: 70px;
+    background-position: center 8%;
+  }
+}
+
+/*--------------------------------------------------------------
+# Form 
 --------------------------------------------------------------*/
 .form-box {
   display: none;
@@ -177,114 +294,6 @@
   font-weight: 700;
   letter-spacing: 0.07em;
   margin: 5px 0px 0px;
-}
-
-/*--------------------------------------------------------------
-# Stats
---------------------------------------------------------------*/
-#stats-section {
-  text-align: center;
-  background: #F5F5F7;
-  background-color: #E5F1FF;
-  padding: 30px 0px;
-}
-#stats-section h5 {
-  margin-bottom: 30px;
-  font-weight: 600;
-  font-size: 0.8em;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: #6c6c70;
-  opacity: 0.8;
-  display: none;
-}
-#stats-section h3 {
-  font-weight: 700;
-  font-size: 2em;
-  height: 40px;
-  color: #267AEF;
-}
-#stats-section h3.small {
-  font-size: 1.6em;
-  line-height: 1.5em;
-}
-#stats-section h4 {
-  font-weight: 700;
-  font-size: 0.8em;
-}
-#stats-section img {
-  max-height: 38px;
-  max-width: 100%;
-  padding-bottom: 10px;
-  margin-top: 5px;
-}
-#stats-section p.stats-desc {
-  font-size: 0.8em;
-  color: #1d1d1f;
-  display: none;
-}
-@media (max-width: 576px) {
-  #stats-section .hide {
-    display: none;
-  }
-  #stats-section .col-xs-3 {
-    padding: 10px;
-  }
-}
-
-/*--------------------------------------------------------------
-# Main Section
---------------------------------------------------------------*/
-@media (max-width: 576px) {
-  section.main.lp {
-    padding: 30px 0px 40px;
-  }
-  section.main.lp a.cta-link {
-    font-size: 1em;
-  }
-}
-
-/*--------------------------------------------------------------
-# Teachers Section
---------------------------------------------------------------*/
-.site-section#teachers-section {
-  background-color: #E5F1FF;
-  padding: 80px 0px 40px;
-}
-@media (max-width: 576px) {
-  .site-section#teachers-section {
-    padding: 60px 0 40px;
-  }
-  .site-section#teachers-section .teacher {
-    padding: 0px;
-  }
-}
-
-/*--------------------------------------------------------------
-# CTA Section
---------------------------------------------------------------*/
-.cta-section {
-  padding: 120px 0px 80px;
-  background-image: url("/assets/img/stamp.jpg");
-  background-repeat: no-repeat;
-  background-size: 110px;
-  background-position: 14% 15%;
-}
-.cta-section h2 {
-  line-height: 1.4em;
-}
-.cta-section a.btn-get-started.cta {
-  font-weight: 700;
-  border-radius: 40px;
-  padding: 15px 30px;
-  margin: 20px 0px 0px;
-}
-@media (max-width: 576px) {
-  .cta-section {
-    padding: 110px 0px 30px;
-    background-size: 70px;
-    background-position: center 8%;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -1718,7 +1727,7 @@ footer img.icon {
 }
 @media (max-width: 576px) {
   footer {
-    padding-bottom: 5px;
+    padding: 0px 0px;
   }
   footer img.icon {
     margin-top: 10px;

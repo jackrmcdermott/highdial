@@ -264,7 +264,7 @@ section.join {
 
 	}
 
-	@media (max-width: 576px) {
+	@media (max-width: $sm-screen) {
 		height: 480px;
 	}
 
@@ -499,8 +499,8 @@ footer {
 		width: 36px;
 	}
 
-	@media (max-width: 576px) {
-		padding-bottom: 5px;
+	@media (max-width: $sm-screen) {
+		padding: 0px 0px;
 
 		img.icon {
 			margin-top: 10px;
