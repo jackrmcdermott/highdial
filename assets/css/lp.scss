@@ -13,7 +13,6 @@
 
 .intro-section {
   position: relative; 
-  border-bottom: 4px solid $light-gray;
   
   h1 {
     font-size: 2.4rem;
@@ -32,7 +31,8 @@
 
 .main-lp {
   background-size: cover;  
-  background-image: url('/assets/img/hero/nurse3.jpg');
+  background-image: url('/assets/img/hero/nurse.jpg');
+  background-image: url('/assets/img/hero/nurse.jpg');
 
   .left {
     padding-right: 40px;
@@ -45,10 +45,6 @@
 
   .row {
     padding: 30px 0px;
-  }
-
-  .highlight {
-      border-bottom: 5px solid rgba($teal,.5);
   }
 
   h4.hero-subtitle {
@@ -205,6 +201,7 @@
 #stats-section {
   text-align: center;
   background: $light-gray;
+  background-color: $light-blue;
   padding: 30px 0px;
 
   h5 {
@@ -222,7 +219,7 @@
   h3 {
     font-weight: 700;
     font-size: 2em;
-    height: 35px;
+    height: 40px;
     //color: $teal;
     color: $blue;
   
@@ -238,7 +235,7 @@
   }
 
   img {
-    max-height: 35px;
+    max-height: 38px;
     max-width: 100%;
     padding-bottom: 10px;
     margin-top: 5px;
@@ -253,18 +250,41 @@
 
 
 
+
+/*--------------------------------------------------------------
+# CTA Section
+--------------------------------------------------------------*/
+
+.site-section#teachers-section {
+  background-color: $light-blue;
+  padding: 80px 0px 40px;
+}
+
+
 /*--------------------------------------------------------------
 # CTA Section
 --------------------------------------------------------------*/
 
 .cta-section {
-  background-size: cover;  
-  //background-image: url('/assets/img/lp/cta-bg.png');
-  background-color: $light-blue;
-  padding: 100px 0px;
+  
+  padding: 100px 0px 80px;
 
   h2 {
     //color: white;
+  }
+
+  .stamp {
+   // position: absolute;
+    float: left;
+    -webkit-transform: skewY(-20deg);
+    -moz-transform: skewY(-20deg);
+    -ms-transform: skewY(-20deg);
+    -o-transform: skewY(-20deg);
+    transform: rotate(-20deg);
+
+    img {
+      width: 110px;
+    }
   }
 
   a.btn-get-started.cta {
@@ -274,23 +294,7 @@
     margin: 20px 0px 0px;
   }
 
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1031,6 +1035,8 @@
   
   .teacher img {
     position: relative;
+    max-width: 110px;
+    box-shadow: $soft-btn-shadow;
     margin-top: 10px; }
   
   .teacher h3 {

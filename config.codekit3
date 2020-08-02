@@ -120,28 +120,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/bg.png": {
-		"ft": 32768,
-		"iS": 37300,
-		"oA": 0,
-		"oAP": "/assets/img/bg.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/coin.jpg": {
-		"ft": 16384,
-		"iS": 642143,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/coin.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/assets/img/coin.png": {
 		"ft": 32768,
 		"iS": 216107,
@@ -162,17 +140,6 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/desk.jpg": {
-		"ft": 16384,
-		"iS": 405420,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/desk.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"/assets/img/desk.png": {
@@ -286,37 +253,48 @@
 		"oAP": "/assets/img/favicon/site.webmanifest",
 		"oF": 0
 		},
-	"/assets/img/hero-img.png": {
-		"ft": 32768,
-		"iS": 34759,
-		"oA": 0,
-		"oAP": "/assets/img/.hero-img~imageoptim.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/hero/nurse2.jpg": {
+	"/assets/img/hero/it.jpg": {
 		"ft": 16384,
-		"iS": 3136515,
+		"iS": 5046458,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/hero/nurse2.jpg",
+		"oAP": "/assets/img/hero/it.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"/assets/img/hero/nurse3.jpg": {
+	"/assets/img/hero/nurse.jpg": {
 		"ft": 16384,
 		"iS": 3731655,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/hero/nurse3.jpg",
+		"oAP": "/assets/img/hero/nurse.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/assets/img/hero/pharm.jpg": {
+		"ft": 16384,
+		"iS": 2787080,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/hero/pharm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/hero/work.jpg": {
+		"ft": 16384,
+		"iS": 3307071,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/hero/work.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/assets/img/icon.png": {
@@ -396,34 +374,14 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/lp/blob_1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/assets/img/lp/blob_1.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/assets/img/lp/blob_2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/assets/img/lp/blob_2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
 	"/assets/img/lp/course.png": {
 		"ft": 32768,
 		"iS": 740462,
 		"oA": 0,
 		"oAP": "/assets/img/lp/course.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -432,17 +390,6 @@
 		"iS": 28429,
 		"oA": 0,
 		"oAP": "/assets/img/lp/cta-bg.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/lp/health-partners.png": {
-		"ft": 32768,
-		"iS": 26473,
-		"oA": 0,
-		"oAP": "/assets/img/lp/health-partners.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -460,232 +407,296 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/lp/health-partners5.png": {
-		"ft": 32768,
-		"iS": 42172,
-		"oA": 0,
-		"oAP": "/assets/img/lp/health-partners5.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/lp/health.jpg": {
+	"/assets/img/lp/person1.jpg": {
 		"ft": 16384,
-		"iS": 3198067,
+		"iS": 5093,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/lp/health.jpg",
+		"oAP": "/assets/img/lp/person1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/lp/hero-bg.png": {
-		"ft": 32768,
-		"iS": 1514196,
+	"/assets/img/lp/person2.jpg": {
+		"ft": 16384,
+		"iS": 4454,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/lp/hero-bg.png",
+		"oAP": "/assets/img/lp/person2.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/lp/person3.jpg": {
+		"ft": 16384,
+		"iS": 2799,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/lp/person3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/lp/person4.jpg": {
+		"ft": 16384,
+		"iS": 4031,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/lp/person4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/lp/person5.jpg": {
+		"ft": 16384,
+		"iS": 5631,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/lp/person5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/lp/person6.jpg": {
+		"ft": 16384,
+		"iS": 4680,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/lp/person6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/lp/stock/blob_1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/img/lp/stock/blob_1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/assets/img/lp/stock/blob_2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/img/lp/stock/blob_2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/assets/img/lp/stock/hero-img.png": {
+		"ft": 32768,
+		"iS": 34759,
+		"oA": 0,
+		"oAP": "/assets/img/lp/stock/hero-img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/lp/hero_1.jpg": {
+	"/assets/img/lp/stock/hero_1.jpg": {
 		"ft": 16384,
 		"iS": 3580634,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/lp/hero_1.jpg",
+		"oAP": "/assets/img/lp/stock/hero_1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/lp/img_1.jpg": {
+	"/assets/img/lp/stock/img_1.jpg": {
 		"ft": 16384,
 		"iS": 27935,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/lp/img_1.jpg",
+		"oAP": "/assets/img/lp/stock/img_1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/lp/img_2.jpg": {
+	"/assets/img/lp/stock/img_2.jpg": {
 		"ft": 16384,
 		"iS": 33039,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/lp/img_2.jpg",
+		"oAP": "/assets/img/lp/stock/img_2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/lp/img_2_big.jpg": {
+	"/assets/img/lp/stock/img_2_big.jpg": {
 		"ft": 16384,
 		"iS": 56408,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/lp/img_2_big.jpg",
+		"oAP": "/assets/img/lp/stock/img_2_big.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/lp/img_3.jpg": {
+	"/assets/img/lp/stock/img_3.jpg": {
 		"ft": 16384,
 		"iS": 40854,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/lp/img_3.jpg",
+		"oAP": "/assets/img/lp/stock/img_3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/lp/img_4.jpg": {
+	"/assets/img/lp/stock/img_4.jpg": {
 		"ft": 16384,
 		"iS": 108266,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/lp/img_4.jpg",
+		"oAP": "/assets/img/lp/stock/img_4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/lp/img_5.jpg": {
+	"/assets/img/lp/stock/img_5.jpg": {
 		"ft": 16384,
 		"iS": 109489,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/lp/img_5.jpg",
+		"oAP": "/assets/img/lp/stock/img_5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/lp/img_6.jpg": {
+	"/assets/img/lp/stock/img_6.jpg": {
 		"ft": 16384,
 		"iS": 49292,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/lp/img_6.jpg",
+		"oAP": "/assets/img/lp/stock/img_6.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/lp/person_1.jpg": {
+	"/assets/img/lp/stock/person_1.jpg": {
 		"ft": 16384,
 		"iS": 42965,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/lp/person_1.jpg",
+		"oAP": "/assets/img/lp/stock/person_1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/lp/person_2.jpg": {
+	"/assets/img/lp/stock/person_2.jpg": {
 		"ft": 16384,
 		"iS": 41764,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/lp/person_2.jpg",
+		"oAP": "/assets/img/lp/stock/person_2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/lp/person_3.jpg": {
+	"/assets/img/lp/stock/person_3.jpg": {
 		"ft": 16384,
 		"iS": 38262,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/lp/person_3.jpg",
+		"oAP": "/assets/img/lp/stock/person_3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/lp/person_4.jpg": {
+	"/assets/img/lp/stock/person_4.jpg": {
 		"ft": 16384,
 		"iS": 20135,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/lp/person_4.jpg",
+		"oAP": "/assets/img/lp/stock/person_4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/lp/person_transparent.png": {
+	"/assets/img/lp/stock/person_transparent.png": {
 		"ft": 32768,
 		"iS": 1303218,
 		"oA": 0,
-		"oAP": "/assets/img/lp/person_transparent.png",
+		"oAP": "/assets/img/lp/stock/person_transparent.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/lp/slider_1.jpg": {
+	"/assets/img/lp/stock/slider_1.jpg": {
 		"ft": 16384,
 		"iS": 439387,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/lp/slider_1.jpg",
+		"oAP": "/assets/img/lp/stock/slider_1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/lp/undraw_teacher.svg": {
+	"/assets/img/lp/stock/undraw_teacher.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/assets/img/lp/undraw_teacher.svg",
+		"oAP": "/assets/img/lp/stock/undraw_teacher.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/assets/img/lp/undraw_teaching.svg": {
+	"/assets/img/lp/stock/undraw_teaching.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/assets/img/lp/undraw_teaching.svg",
+		"oAP": "/assets/img/lp/stock/undraw_teaching.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/assets/img/lp/undraw_youtube_tutorial.svg": {
+	"/assets/img/lp/stock/undraw_youtube_tutorial.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/assets/img/lp/undraw_youtube_tutorial.svg",
+		"oAP": "/assets/img/lp/stock/undraw_youtube_tutorial.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/assets/img/lp/Untitled-8.jpg": {
+	"/assets/img/lp/stock/Untitled-8.jpg": {
 		"ft": 16384,
 		"iS": 21004,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/lp/Untitled-8.jpg",
+		"oAP": "/assets/img/lp/stock/Untitled-8.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/assets/img/stamp.jpg": {
@@ -708,17 +719,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/worker.jpg": {
-		"ft": 16384,
-		"iS": 572845,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/worker.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"/assets/img/worker.png": {

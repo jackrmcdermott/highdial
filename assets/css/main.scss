@@ -457,7 +457,7 @@ header.request {
 		}
 
 		.logo {
-			display: none;
+			//display: none;
 		}
 
 	}//end mobile 
@@ -538,9 +538,36 @@ footer {
 }
 
 
+
+
+
+
+
 /*--------------------------------------------------------------
-# JS/jQuery Styles 
+# Special Styles 
 --------------------------------------------------------------*/
+
+.highlight {
+	border-bottom: 5px solid rgba($teal,.5);
+ }
+
+.skew {
+    -webkit-transform: skewY(-2deg);
+    -moz-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+    -o-transform: skewY(-2deg);
+    transform: skewY(-2deg);
+}
+
+.skew.container {
+    -webkit-transform: skewY(2deg);
+    -moz-transform: skewY(2deg);
+    -ms-transform: skewY(2deg);
+    -o-transform: skewY(2deg);
+    transform: skewY(2deg);    
+  }
+
+
 
 // .hero-h1, .btn-get-started.top, .caret-link, #hero {
 // 	opacity: 0;
