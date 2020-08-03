@@ -77,7 +77,6 @@ span.hyp {
 }
 
 
-
 /*--------------------------------------------------------------
 # Main Buttons 
 --------------------------------------------------------------*/
@@ -471,8 +470,8 @@ header {
 # Request Section
 --------------------------------------------------------------*/
 
+
 header.request {
-	//padding: 20px 0px;
 
 	.headshot-container {
 		width: 50%;
@@ -498,29 +497,16 @@ header.request {
 
 	@media (max-width: $sm-screen) {
 		
-		.headshot-container {
-			//top: 40px;
-		}
-
-		.logo {
-			//display: none;
+		.invisible-m {
+			visibility: hidden;
 		}
 
 	}//end mobile 
 
 }// end header.request
 
-section.request {
-	
-	.container.typeform {
-		padding: 0px;
-	}
 
-	.typeform-widget {
-		margin-top: 30px;
-	}
 
-} //end section 
 
 
 /*--------------------------------------------------------------

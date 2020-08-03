@@ -28,7 +28,6 @@
 
 }
 
-
 .main-lp {
   background-size: cover;
   
@@ -69,7 +68,7 @@
   }
 
   .btn-get-started.lp {
-    margin: 1.5em auto 1.8em;
+    margin: 1.4em auto 1.8em;
     font-weight: 700;
     font-size: 0.9em;
   }
@@ -99,12 +98,16 @@
   }
 
 @media (max-width: $sm-screen) {
-  background: none;
+  
+  &.healthcare {
+    background: none;
+  }
 
   .left {
     padding-right: 15px;
     padding-bottom: 0px;
   }
+
 
   .row {
     padding: 10px 5px;
@@ -232,6 +235,7 @@ section.main.lp {
     img.img-fluid.big {
       overflow: hidden;
       max-width: 110%;
+      overflow-x: hidden;
     }
 
     a.cta-link {
@@ -295,9 +299,9 @@ section.main.lp {
   }
 
   @media (max-width: $sm-screen) { 
-    padding: 110px 0px 30px;
+    padding: 120px 0px 50px;
     background-size: 70px;
-    background-position: center 8%;
+    background-position: center 12%;
     
   }//end mobile small
 
