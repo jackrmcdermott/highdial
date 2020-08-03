@@ -21,6 +21,8 @@
 
 .main-lp {
   background-size: cover;
+}
+.main-lp.healthcare {
   background-image: url("/assets/img/hero/nurse.jpg");
 }
 .main-lp .left {
@@ -104,9 +106,8 @@
 --------------------------------------------------------------*/
 #stats-section {
   text-align: center;
-  background: #F5F5F7;
   background-color: #E5F1FF;
-  padding: 30px 0px;
+  padding: 25px 0px 20px;
 }
 #stats-section h5 {
   margin-bottom: 30px;
@@ -160,7 +161,7 @@
 --------------------------------------------------------------*/
 section.main.lp p.item {
   font-size: 0.9em;
-  margin: 10px 0px;
+  margin: 12px 0px;
 }
 section.main.lp span.number-circle {
   background: #00DEAB;
@@ -173,7 +174,7 @@ section.main.lp span.number-circle {
   display: inline-block;
   color: white;
   font-weight: 600;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 @media (max-width: 576px) {
   section.main.lp {
@@ -197,6 +198,13 @@ section.main.lp span.number-circle {
 }
 .site-section#teachers-section b {
   color: #267AEF;
+}
+.site-section#teachers-section span.career-arrow {
+  color: #00DEAB;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1.6em;
+  margin: 0px 3px;
 }
 @media (max-width: 576px) {
   .site-section#teachers-section {
@@ -231,6 +239,11 @@ section.main.lp span.number-circle {
     padding: 110px 0px 30px;
     background-size: 70px;
     background-position: center 8%;
+  }
+}
+@media (min-width: 1200px) {
+  .cta-section {
+    background-position: 32% 18%;
   }
 }
 
@@ -1331,13 +1344,6 @@ section.main.lp span.number-circle {
   color: #1d1d1f;
 }
 
-span.blue-arrow {
-  color: #00DEAB;
-  font-weight: bold;
-  font-size: 1.5em;
-  margin: 0px 4px;
-}
-
 .course-instructor {
   padding: 30px;
 }
@@ -1721,7 +1727,7 @@ header a.nav-btn {
   border-radius: 26px;
 }
 header a.nav-btn:hover {
-  background-color: #3e89f1;
+  background-color: #116cea;
   transition: all ease-in 0.1s;
   color: white;
 }
