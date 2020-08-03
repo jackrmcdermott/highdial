@@ -223,7 +223,7 @@ section.main.lp span.number-circle {
   background-image: url("/assets/img/stamp.jpg");
   background-repeat: no-repeat;
   background-size: 110px;
-  background-position: 20% 18%;
+  background-position: 22% 18%;
 }
 .cta-section h2 {
   line-height: 1.4em;
@@ -241,7 +241,7 @@ section.main.lp span.number-circle {
     background-position: center 8%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .cta-section {
     background-position: 32% 18%;
   }

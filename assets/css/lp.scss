@@ -226,7 +226,6 @@ section.main.lp {
   }
 
 
-
   @media (max-width: $sm-screen) { 
     padding: 30px 0px 40px;
 
@@ -282,7 +281,7 @@ section.main.lp {
   background-image: url('/assets/img/stamp.jpg');
   background-repeat: no-repeat;
   background-size: 110px;
-  background-position: 20% 18%;
+  background-position: 22% 18%;
   
   h2 {
     line-height: 1.4em;
@@ -302,7 +301,7 @@ section.main.lp {
     
   }//end mobile small
 
-  @media (min-width: 1200px) { 
+  @media (min-width: 1400px) { 
     background-position: 32% 18%;
 
   }//end mobile wide
