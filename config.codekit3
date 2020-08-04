@@ -122,7 +122,7 @@
 		},
 	"/assets/img/coin.png": {
 		"ft": 32768,
-		"iS": 216107,
+		"iS": 3189494,
 		"oA": 0,
 		"oAP": "/assets/img/coin.png",
 		"oF": 0,
@@ -255,13 +255,13 @@
 		},
 	"/assets/img/hero/it.jpg": {
 		"ft": 16384,
-		"iS": 260994,
+		"iS": 292458,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/hero/it.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/img/hero/nurse.jpg": {
@@ -310,7 +310,7 @@
 		},
 	"/assets/img/jack.jpg": {
 		"ft": 16384,
-		"iS": 70325,
+		"iS": 80401,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/jack.jpg",
@@ -407,6 +407,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/lp/it-partners.png": {
+		"ft": 32768,
+		"iS": 25343,
+		"oA": 0,
+		"oAP": "/assets/img/lp/it-partners.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/img/lp/person1.jpg": {
 		"ft": 16384,
 		"iS": 5093,
@@ -453,7 +464,7 @@
 		},
 	"/assets/img/lp/person5.jpg": {
 		"ft": 16384,
-		"iS": 4941,
+		"iS": 5631,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/lp/person5.jpg",
@@ -1490,12 +1501,28 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
+	"/lp/healthcare.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lp/healthcare.html",
+		"oF": 0
+		},
 	"/lp/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/lp/index.html",
+		"oF": 0
+		},
+	"/lp/it-cybersecurity.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lp/it-cybersecurity.html",
 		"oF": 0
 		},
 	"/README.md": {

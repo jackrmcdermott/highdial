@@ -31,9 +31,21 @@
 .main-lp {
   background-size: cover;
   
+  // Healthcare
   &.healthcare {
     background-image: url('/assets/img/hero/nurse.jpg');
   }
+
+  // IT-Cyber
+  &.it-cyber {
+    background-image: url('/assets/img/hero/it.jpg'); 
+    
+    h1.hero-title {
+      margin-top: .5em;
+    }
+  }
+
+  
 
   .left {
     padding-right: 50px;
@@ -68,7 +80,7 @@
   }
 
   .btn-get-started.lp {
-    margin: 1.4em auto 1.8em;
+    margin: 1.1em auto 1.8em;
     font-weight: 700;
     font-size: 0.9em;
   }
