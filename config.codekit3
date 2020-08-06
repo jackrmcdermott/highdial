@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/404.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/404.html",
+		"oF": 0
+		},
 	"/assets/css/lp.css": {
 		"aP": 1,
 		"bl": 0,
@@ -299,12 +307,12 @@
 		},
 	"/assets/img/icon.png": {
 		"ft": 32768,
-		"iS": 29107,
+		"iS": 7133,
 		"oA": 0,
 		"oAP": "/assets/img/icon.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -349,6 +357,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/logo-text.png": {
+		"ft": 32768,
+		"iS": 5330,
+		"oA": 0,
+		"oAP": "/assets/img/logo-text.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -464,7 +483,7 @@
 		},
 	"/assets/img/lp/person5.jpg": {
 		"ft": 16384,
-		"iS": 4941,
+		"iS": 5631,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/lp/person5.jpg",

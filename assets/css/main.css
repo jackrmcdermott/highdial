@@ -1837,6 +1837,18 @@ footer img.icon {
 }
 
 /*--------------------------------------------------------------
+# 404  
+--------------------------------------------------------------*/
+section.four-oh-four .splash-logo {
+  max-width: 240px;
+}
+section.four-oh-four h2 {
+  text-align: center;
+  color: white;
+  margin: 1em 0;
+}
+
+/*--------------------------------------------------------------
 # Special Styles 
 --------------------------------------------------------------*/
 /* Small devices (landscape phones, 576px and up)
