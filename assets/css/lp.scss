@@ -57,7 +57,7 @@
   }
 
   .row {
-    padding: 30px 0px;
+    padding: 15px 0px;
   }
 
   h4.hero-subtitle {
@@ -80,11 +80,24 @@
   }
 
   .btn-get-started.lp {
-    margin: 1.1em auto 1.8em;
+    margin: 1.0em auto 1.8em;
     font-weight: 700;
     font-size: 0.9em;
   }
+  
 
+  .btn-box::after {
+      display: inline-block;
+      content: "";
+      width: 66px;
+      height: 66px;
+      opacity: 0.7;
+      margin-top: -70px;
+      margin-left: 40px;
+      background-image: url('/assets/img/btn-arrow.png'); 
+      transform: rotate(0deg);
+      background-size: cover;
+    }
 
   ul.checklist {
     font-size: 0.8em;
