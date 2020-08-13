@@ -150,6 +150,10 @@
     margin-top: 10px;
   }
 
+  .btn-box::after {
+    display: none;
+  }
+
   ul.checklist {
     
      .fa {

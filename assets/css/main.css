@@ -113,6 +113,9 @@
     line-height: 1.25em;
     margin-top: 10px;
   }
+  .main-lp .btn-box::after {
+    display: none;
+  }
   .main-lp ul.checklist .fa {
     margin-right: 2px;
   }
