@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*--------------------------------------------------------------
 # Imports
 --------------------------------------------------------------*/
@@ -652,7 +651,7 @@ section.main.lp span.number-circle {
   left: 0;
   font-size: 20px;
   top: -0.3rem;
-  content: "";
+  content: "\e5ca";
   position: absolute;
 }
 
@@ -763,7 +762,7 @@ section.main.lp span.number-circle {
 
 .site-navbar .site-navigation .site-menu .has-children > a:before {
   position: absolute;
-  content: "";
+  content: "\e313";
   font-size: 16px;
   top: 50%;
   right: 0;
@@ -846,7 +845,7 @@ section.main.lp span.number-circle {
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children > a:before {
-  content: "";
+  content: "\e315";
   right: 20px;
 }
 
