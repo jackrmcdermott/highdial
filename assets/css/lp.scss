@@ -17,7 +17,11 @@ body.waitlist {
   header {
     box-shadow: none;
     border-bottom: none;
-    padding: 20px 0px;
+    padding: 20px 0px 0px;;
+  }
+
+  img.brand {
+    max-height: 32px;
   }
 
   .container {
@@ -50,8 +54,12 @@ body.waitlist {
 
   a.cta.lp {
     display: inline-block;
-    font-size: 1em;
-    padding: 12px 32px;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 0.001em;
+    padding: 15px 35px;
+    border-radius: 0px
+
   }
 
   .image {
@@ -64,7 +72,7 @@ body.waitlist {
 
   .credits {
     font-size: 1.3em;
-    margin-top: 3px;
+    margin-top: 0px;
     font-weight: 400;
   }
 
