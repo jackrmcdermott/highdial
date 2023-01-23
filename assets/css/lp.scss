@@ -6,6 +6,97 @@
 @import "site.scss";
 
 
+/*--------------------------------------------------------------
+# Waitist 
+--------------------------------------------------------------*/
+
+body.waitlist {
+  font-family: $second-font;
+  letter-spacing: -0.04em;
+
+  header {
+    box-shadow: none;
+    border-bottom: none;
+    padding: 20px 0px;
+  }
+
+  .container {
+    max-width: 1800px;
+  }
+
+  .cta-section {
+    background-image: none;
+  }
+
+  div.text {
+    padding: 0 50px;
+  }
+
+  h1.section-title {
+    text-align: left;
+    font-size: 3.4em;
+    margin: 30px 0px;
+    font-weight: 800;
+    width: 80%;
+  }
+
+  p.main-text {
+    width: 70%;
+    font-size: 1.4em;
+    opacity: 0.7;
+    font-weight: 400;
+   // font-family: $serif-font;
+  }
+
+  a.cta.lp {
+    display: inline-block;
+    font-size: 1em;
+    padding: 12px 32px;
+  }
+
+  .image {
+    padding: 40px;
+  }
+
+  footer {
+    padding: 30px 0px;
+  }
+
+  .credits {
+    font-size: 1.3em;
+    margin-top: 3px;
+    font-weight: 400;
+  }
+
+
+@media (max-width: $sm-screen) { 
+  
+
+  section.main.lp {
+    padding: 0px 0px;
+  }
+
+  a.logo, p.main-text {
+    width: 100%;
+  }
+
+  .image {
+    padding: 10px;
+  }
+
+  div.text {
+    padding: 0px 30px;
+  }
+
+  .section-title {
+    width: 100%;
+    margin: 20px 0px;
+  }
+
+  } // end mobile
+
+} // end body.waitlist
+
 
 /*--------------------------------------------------------------
 # Hero 
@@ -44,8 +135,6 @@
       margin-top: .5em;
     }
   }
-
-
 
   .left {
     padding-right: 50px;

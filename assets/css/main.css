@@ -2,6 +2,75 @@
 # Imports
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
+# Waitist 
+--------------------------------------------------------------*/
+body.waitlist {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: -0.04em;
+}
+body.waitlist header {
+  box-shadow: none;
+  border-bottom: none;
+  padding: 20px 0px;
+}
+body.waitlist .container {
+  max-width: 1800px;
+}
+body.waitlist .cta-section {
+  background-image: none;
+}
+body.waitlist div.text {
+  padding: 0 50px;
+}
+body.waitlist h1.section-title {
+  text-align: left;
+  font-size: 3.4em;
+  margin: 30px 0px;
+  font-weight: 800;
+  width: 80%;
+}
+body.waitlist p.main-text {
+  width: 70%;
+  font-size: 1.4em;
+  opacity: 0.7;
+  font-weight: 400;
+}
+body.waitlist a.cta.lp {
+  display: inline-block;
+  font-size: 1em;
+  padding: 12px 32px;
+}
+body.waitlist .image {
+  padding: 40px;
+}
+body.waitlist footer {
+  padding: 30px 0px;
+}
+body.waitlist .credits {
+  font-size: 1.3em;
+  margin-top: 3px;
+  font-weight: 400;
+}
+@media (max-width: 576px) {
+  body.waitlist section.main.lp {
+    padding: 0px 0px;
+  }
+  body.waitlist a.logo, body.waitlist p.main-text {
+    width: 100%;
+  }
+  body.waitlist .image {
+    padding: 10px;
+  }
+  body.waitlist div.text {
+    padding: 0px 30px;
+  }
+  body.waitlist .section-title {
+    width: 100%;
+    margin: 20px 0px;
+  }
+}
+
+/*--------------------------------------------------------------
 # Hero 
 --------------------------------------------------------------*/
 .intro-section {

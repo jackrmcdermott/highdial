@@ -17,6 +17,14 @@
       "oAP" : "\/404.html",
       "oF" : 0
     },
+    "\/alpha\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/alpha\/index.html",
+      "oF" : 0
+    },
     "\/assets\/css\/lp.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1689,6 +1697,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/Butterfly Bootstrap Template Demo.webloc" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Butterfly Bootstrap Template Demo.webloc",
+      "oF" : 0
     },
     "\/CNAME" : {
       "cB" : 0,
