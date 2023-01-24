@@ -17,21 +17,25 @@ body.waitlist {
   header {
     box-shadow: none;
     border-bottom: none;
-    padding: 30px 0px;
+    padding: 10px 10px;
   }
 
   a.nav-btn {
     font-size: 0.9em;
     padding: 12px 24px;
-    font-weight: 500;
+    font-weight: 400;
   }
 
   section.main {
-    background: $test-bg-teal;
+    background: $test-bg-blue;
+
+  .img-fluid.big {
+    max-width: 100%;
+  }
   }
 
   img.brand {
-    max-height: 40px;
+    max-height: 32px;
   }
 
   .container {
@@ -42,22 +46,16 @@ body.waitlist {
     background-image: none;
   }
 
-  div.text {
-    padding: 0 50px;
-  }
-
   h1.section-title {
     text-align: left;
-    font-size: 4.3em;
+    font-size: 3.8em;
     margin: 30px 0px;
     font-weight: 700;
-    width: 80%;
   }
 
   p.main-text {
-    width: 70%;
-    font-size: 1.4em;
-    opacity: 0.85;
+    font-size: 1.32em;
+    opacity: 0.9;
     font-weight: 400;
   }
 
@@ -67,12 +65,14 @@ body.waitlist {
     font-weight: 600;
     letter-spacing: 0.001em;
     padding: 25px 60px;
-    border-radius: 60px
+    border-radius: 60px;
   }
 
   .image {
-    padding: 40px;
+    padding: 0px;
+    padding-right: 30px;
   }
+
 
   footer {
     padding: 30px 0px;
