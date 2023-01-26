@@ -7,7 +7,7 @@
 
 
 /*--------------------------------------------------------------
-# Waitist 
+# Alpha 1 Body 
 --------------------------------------------------------------*/
 
 body.waitlist {
@@ -17,7 +17,7 @@ body.waitlist {
   header {
     box-shadow: none;
     border-bottom: none;
-    padding: 10px 10px;
+    padding: 20px 20px;
   }
 
   a.nav-btn {
@@ -29,17 +29,16 @@ body.waitlist {
   section.main {
     background: $test-bg-blue;
 
-  .img-fluid.big {
-    max-width: 100%;
-    
-    background-color: lighten($blue, 18%);
-    border-radius: 60px;
-    padding: 32px;
-  }
+    .img-fluid.big {
+      max-width: 100%;
+      background-color: lighten($blue, 18%);
+      border-radius: 60px;
+      padding: 32px;
+    }
   }
 
   img.brand {
-    max-height: 32px;
+    max-height: 36px;
   }
 
   .container {
@@ -50,15 +49,19 @@ body.waitlist {
     background-image: none;
   }
 
+  .text {
+    max-width: 540px;
+  }
+
   h1.section-title {
     text-align: left;
-    font-size: 3.8em;
+    font-size: 3.9em;
     margin: 30px 0px;
     font-weight: 700;
   }
 
   p.main-text {
-    font-size: 1.32em;
+    font-size: 1.5em;
     opacity: 0.9;
     font-weight: 400;
   }
@@ -68,7 +71,7 @@ body.waitlist {
     font-size: 1.5em;
     font-weight: 600;
     letter-spacing: 0.001em;
-    padding: 25px 65px;
+    padding: 33px 80px;
     border-radius: 60px;
   }
 
@@ -91,10 +94,45 @@ body.waitlist {
   }
 
 
+/*--------------------------------------------------------------
+# Alpha 2 Body
+--------------------------------------------------------------*/
+
+&.assessment {
+  
+  section.main {
+    background: $test-bg-purple;
+
+    .img-fluid.big {
+      max-width: 100%;
+      background-color: transparent;
+      border-radius: 0px;
+      padding: 0px;
+    }
+  }
+
+  .text {
+    max-width: 660px;
+    //border: 1px solid green;
+  }
+
+  .image {
+    padding-right: 0px;
+  }
+
+}
+
+
+/*--------------------------------------------------------------
+# Mobile 
+--------------------------------------------------------------*/
+
+
 @media (max-width: $sm-screen) { 
   
   header {
-    padding: 30px 20px 20px; 
+    padding: 30px 20px 20
+    px; 
   }
 
   img.brand {
@@ -142,6 +180,12 @@ body.waitlist {
   } // end mobile
 
 } // end body.waitlist
+
+
+
+
+
+
 
 
 /*--------------------------------------------------------------

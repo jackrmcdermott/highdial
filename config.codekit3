@@ -17,6 +17,14 @@
       "oAP" : "\/404.html",
       "oF" : 0
     },
+    "\/alpha\/2.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/alpha\/2.html",
+      "oF" : 0
+    },
     "\/alpha\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -148,6 +156,19 @@
       "iS" : 409005,
       "oA" : 0,
       "oAP" : "\/assets\/img\/bg-arrow.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/brief.png" : {
+      "ft" : 32768,
+      "iS" : 714944,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/brief.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -886,6 +907,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/side.png" : {
+      "ft" : 32768,
+      "iS" : 964074,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/side.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

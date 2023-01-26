@@ -2,16 +2,22 @@
 # Imports
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
-# Waitist 
+# Alpha 1 Body 
 --------------------------------------------------------------*/
 body.waitlist {
   font-family: "Poppins", sans-serif;
   letter-spacing: -0.04em;
+  /*--------------------------------------------------------------
+  # Alpha 2 Body
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  # Mobile 
+  --------------------------------------------------------------*/
 }
 body.waitlist header {
   box-shadow: none;
   border-bottom: none;
-  padding: 10px 10px;
+  padding: 20px 20px;
 }
 body.waitlist a.nav-btn {
   font-size: 0.85em;
@@ -28,7 +34,7 @@ body.waitlist section.main .img-fluid.big {
   padding: 32px;
 }
 body.waitlist img.brand {
-  max-height: 32px;
+  max-height: 36px;
 }
 body.waitlist .container {
   max-width: 1800px;
@@ -36,14 +42,17 @@ body.waitlist .container {
 body.waitlist .cta-section {
   background-image: none;
 }
+body.waitlist .text {
+  max-width: 540px;
+}
 body.waitlist h1.section-title {
   text-align: left;
-  font-size: 3.8em;
+  font-size: 3.9em;
   margin: 30px 0px;
   font-weight: 700;
 }
 body.waitlist p.main-text {
-  font-size: 1.32em;
+  font-size: 1.5em;
   opacity: 0.9;
   font-weight: 400;
 }
@@ -52,7 +61,7 @@ body.waitlist a.cta.lp {
   font-size: 1.5em;
   font-weight: 600;
   letter-spacing: 0.001em;
-  padding: 25px 65px;
+  padding: 33px 80px;
   border-radius: 60px;
 }
 body.waitlist .image {
@@ -69,9 +78,24 @@ body.waitlist .credits {
   font-weight: 500;
   opacity: 1;
 }
+body.waitlist.assessment section.main {
+  background: #F4F2FF;
+}
+body.waitlist.assessment section.main .img-fluid.big {
+  max-width: 100%;
+  background-color: transparent;
+  border-radius: 0px;
+  padding: 0px;
+}
+body.waitlist.assessment .text {
+  max-width: 660px;
+}
+body.waitlist.assessment .image {
+  padding-right: 0px;
+}
 @media (max-width: 576px) {
   body.waitlist header {
-    padding: 30px 20px 20px;
+    padding: 30px 20px 20 px;
   }
   body.waitlist img.brand {
     max-height: 40px;
