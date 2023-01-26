@@ -924,6 +924,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/side2.png" : {
+      "ft" : 32768,
+      "iS" : 1009019,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/side2.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/img\/stamp.jpg" : {
       "ft" : 16384,
       "iS" : 83156,

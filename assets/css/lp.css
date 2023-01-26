@@ -19,13 +19,21 @@ body.waitlist header {
   border-bottom: none;
   padding: 20px 20px;
 }
-body.waitlist a.nav-btn {
+body.waitlist a.nav-btn, body.waitlist button.nav-btn {
   font-size: 0.85em;
   padding: 12px 24px;
   font-weight: 500;
+  color: white;
+  background: #267AEF;
+  text-transform: none;
+}
+body.waitlist a.nav-btn:hover, body.waitlist button.nav-btn:hover {
+  background-color: #1061d2;
+  transition: all ease-in 0.1s;
+  color: white;
 }
 body.waitlist section.main {
-  background: #ccdfff;
+  background: #bdd5ff;
 }
 body.waitlist section.main .img-fluid.big {
   max-width: 100%;
@@ -56,13 +64,14 @@ body.waitlist p.main-text {
   opacity: 0.9;
   font-weight: 400;
 }
-body.waitlist a.cta.lp {
+body.waitlist a.cta.lp, body.waitlist button {
   display: inline-block;
   font-size: 1.5em;
   font-weight: 600;
   letter-spacing: 0.001em;
   padding: 33px 80px;
   border-radius: 60px;
+  border: none;
 }
 body.waitlist .image {
   padding: 0px;
@@ -79,7 +88,7 @@ body.waitlist .credits {
   opacity: 1;
 }
 body.waitlist.assessment section.main {
-  background: #F4F2FF;
+  background: #bdd5ff;
 }
 body.waitlist.assessment section.main .img-fluid.big {
   max-width: 100%;
@@ -106,7 +115,7 @@ body.waitlist.assessment .image {
   body.waitlist h1.section-title {
     font-size: 2.7em;
   }
-  body.waitlist a.cta.lp {
+  body.waitlist a.cta.lp, body.waitlist button {
     width: 100%;
     padding: 25px;
     font-size: 1.4em;
