@@ -99,12 +99,9 @@ body.waitlist.assessment section.main .img-fluid.big {
 body.waitlist.assessment .text {
   max-width: 660px;
 }
-body.waitlist.assessment .image {
-  padding-right: 0px;
-}
 @media (max-width: 576px) {
   body.waitlist header {
-    padding: 30px 20px 20 px;
+    padding: 35px 20px 20px;
   }
   body.waitlist img.brand {
     max-height: 40px;
@@ -113,7 +110,7 @@ body.waitlist.assessment .image {
     padding: 20px 0px 60px;
   }
   body.waitlist h1.section-title {
-    font-size: 2.7em;
+    font-size: 2.4em;
   }
   body.waitlist a.cta.lp, body.waitlist button {
     width: 100%;
@@ -123,7 +120,7 @@ body.waitlist.assessment .image {
   }
   body.waitlist a.logo, body.waitlist p.main-text {
     width: 100%;
-    font-size: 1.35em;
+    font-size: 1.25em;
   }
   body.waitlist .image {
     padding: 10px;
