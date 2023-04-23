@@ -911,19 +911,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/img\/side.png" : {
-      "ft" : 32768,
-      "iS" : 964074,
-      "oA" : 0,
-      "oAP" : "\/assets\/img\/side.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/assets\/img\/side2.png" : {
       "ft" : 32768,
       "iS" : 1009019,
