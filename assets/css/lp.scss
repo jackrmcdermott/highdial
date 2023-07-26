@@ -142,6 +142,7 @@ body.waitlist {
   
   header {
     background-color: $waypoint-light-blue;
+    color: $waypoint-black;
 
     button {
       background-color: $waypoint-black;
@@ -151,27 +152,33 @@ body.waitlist {
       }
     } //end button
 
-    #clearbit {
-      border: 1px solid orange;
-      height: 45px;
-      width: 45px;
-      padding: 0px;
-      margin: 0px 20px;
+    h4 {
+      line-height: 30px;
+      margin: 3px 16px 0px 18px;
+      font-weight: 300;
+      opacity: 0.5;
+     // border: 1px solid orange;
     }
+
+    #clearbit {
+      height: 50px;
+      width: 50x;
+      padding: 0px
+          }
   }
 
   section.main {
     background: $waypoint-light-blue;
     color: $waypoint-black;
-    
+
     .text {
       max-width: none;
-      padding: 0px;
+      padding: 1.2em 0px 0px;
     }
 
     h1 {
       font-size: 4em;
-      font-weight: 600;
+      font-weight: 700;
       margin: .6em 0px;
       letter-spacing: -0.02em;
       color: $waypoint-black;
@@ -235,8 +242,8 @@ body.waitlist {
   } // end section.main
 
   footer {
-        background-color: $waypoint-light-blue;
-        color: $waypoint-black;
+      background-color: $waypoint-light-blue;
+      color: $waypoint-black;
   }
 
 } // end waypoint 

@@ -104,6 +104,7 @@ body.waitlist.assessment .text {
 }
 body.waitlist.waypoint header {
   background-color: #EBFAFE;
+  color: #143742;
 }
 body.waitlist.waypoint header button {
   background-color: #143742;
@@ -112,12 +113,16 @@ body.waitlist.waypoint header button {
 body.waitlist.waypoint header button:hover {
   background-color: #08161b;
 }
+body.waitlist.waypoint header h4 {
+  line-height: 30px;
+  margin: 3px 16px 0px 18px;
+  font-weight: 300;
+  opacity: 0.5;
+}
 body.waitlist.waypoint header #clearbit {
-  border: 1px solid orange;
-  height: 45px;
-  width: 45px;
+  height: 50px;
+  width: 50x;
   padding: 0px;
-  margin: 0px 20px;
 }
 body.waitlist.waypoint section.main {
   background: #EBFAFE;
@@ -125,11 +130,11 @@ body.waitlist.waypoint section.main {
 }
 body.waitlist.waypoint section.main .text {
   max-width: none;
-  padding: 0px;
+  padding: 1.2em 0px 0px;
 }
 body.waitlist.waypoint section.main h1 {
   font-size: 4em;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0.6em 0px;
   letter-spacing: -0.02em;
   color: #143742;
