@@ -190,6 +190,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/checkmark.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/img\/checkmark.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/assets\/img\/coin.png" : {
       "ft" : 32768,
       "iS" : 216107,
@@ -924,6 +934,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/simple-logo.png" : {
+      "ft" : 32768,
+      "iS" : 4315,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/simple-logo.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/img\/stamp.jpg" : {
       "ft" : 16384,
       "iS" : 83156,
@@ -933,6 +956,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/transparent-pixel.png" : {
+      "ft" : 32768,
+      "iS" : 1273,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/transparent-pixel.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1744,6 +1780,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/beta\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/beta\/index.html",
+      "oF" : 0
     },
     "\/Butterfly Bootstrap Template Demo.webloc" : {
       "cB" : 0,

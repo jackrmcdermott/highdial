@@ -62,14 +62,14 @@ body.waitlist {
     max-width: 540px;
   }
 
-  h1.section-title {
+  h1 {
     text-align: left;
     font-size: 3.9em;
     margin: 30px 0px;
     font-weight: 700;
   }
 
-  p.main-text {
+  p {
     font-size: 1.5em;
     opacity: 0.9;
     font-weight: 400;
@@ -133,6 +133,113 @@ body.waitlist {
   }
 
 }
+
+/*--------------------------------------------------------------
+# Waypoint
+--------------------------------------------------------------*/
+
+&.waypoint {
+  
+  header {
+    background-color: $waypoint-light-blue;
+
+    button {
+      background-color: $waypoint-black;
+      font-weight: 500;
+      &:hover {
+        background-color: darken($waypoint-black, 10%);
+      }
+    } //end button
+
+    #clearbit {
+      border: 1px solid orange;
+      height: 45px;
+      width: 45px;
+      padding: 0px;
+      margin: 0px 20px;
+    }
+  }
+
+  section.main {
+    background: $waypoint-light-blue;
+    color: $waypoint-black;
+    
+    .text {
+      max-width: none;
+      padding: 0px;
+    }
+
+    h1 {
+      font-size: 4em;
+      font-weight: 600;
+      margin: .6em 0px;
+      letter-spacing: -0.02em;
+      color: $waypoint-black;
+    }
+
+    p {
+      font-size: 1.5em;
+      opacity: 0.9;
+      font-weight: 500;
+      color: $waypoint-black;
+    }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.2em;
+  
+    li {
+      position: relative;
+      padding-left: 40px;
+      margin: 1.5em 0px;      
+    }
+    li:before {
+      content: '';
+      width: 26px;
+      height: 26px;
+      position: absolute;
+      background-image: url('/assets/img/checkmark.svg');
+      opacity: .7;
+      background-size: cover;
+      background-position: center;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+    a.cta.lp, button {
+      margin: 1em 0;
+      font-size: .8em;
+      font-weight: 500;
+      border: none;
+      outline: none;
+      letter-spacing: 0.001em;
+      padding: 20px 50px;
+      border: none;
+      box-shadow: none;
+      background-color: $waypoint-black;
+      &:hover {
+        background-color: darken($waypoint-black, 10%);
+      }
+    }
+
+    .img-fluid.big {
+      max-width: 100%;
+      background-color: transparent;
+      border-radius: 0px;
+      padding: 0px;
+    }
+
+  } // end section.main
+
+  footer {
+        background-color: $waypoint-light-blue;
+        color: $waypoint-black;
+  }
+
+} // end waypoint 
 
 
 /*--------------------------------------------------------------

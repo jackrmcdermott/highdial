@@ -13,12 +13,12 @@ body {
 	font-family: $main-font;
 	color: $black;
 	margin: 0;
-    padding: 0;
-    letter-spacing: -0.008em;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-smooth: always;
-    overflow-x: hidden;
+  padding: 0;
+  letter-spacing: -0.008em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   font-smooth: always;
+   overflow-x: hidden;
 }
 
 
@@ -40,8 +40,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
 	line-height: 1.5em;
-    font-weight: 500;
-    color: $black;
+   font-weight: 500;
+   color: $black;
 }
 
 
@@ -82,7 +82,7 @@ span.hyp {
 --------------------------------------------------------------*/
 
 .btn-get-started {
-  	display: inline-block;
+  display: inline-block;
  	padding: 12px 24px;
  	margin: 30px 0px;
 	font-weight: 700;
