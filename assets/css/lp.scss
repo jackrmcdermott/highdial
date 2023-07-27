@@ -134,11 +134,71 @@ body.waitlist {
 
 }
 
+
+/*--------------------------------------------------------------
+# Mobile 
+--------------------------------------------------------------*/
+
+  @media (max-width: $sm-screen) { 
+    
+    header {
+      padding: 35px 20px 20px; 
+    }
+
+    img.brand {
+      max-height: 50px;
+    }
+
+    section.main.lp {
+      padding: 20px 0px 60px;
+    }
+
+    h1 {
+      font-size: 2.4em;
+    }
+
+    a.cta.lp, button {
+      width: 100%;
+      padding: 25px;
+      font-size: 1.4em;
+      text-align: center;
+    }
+
+    a.logo, p.main-text {
+      width: 100%;
+      font-size: 1.25em;
+    }
+
+    .image {
+      padding: 10px;
+    }
+
+    div.text {
+      padding: 0px 10px;
+    }
+
+    .section-title {
+      width: 100%;
+      margin: 20px 0px;
+    }
+
+    footer {
+      padding: 20px 0px;
+    }
+
+    .credits {
+      margin-top: 15px;
+    }
+
+  } // end mobile
+} // end lp
+
+
 /*--------------------------------------------------------------
 # Waypoint
 --------------------------------------------------------------*/
 
-&.waypoint {
+body.waypoint {
   
   header {
     background-color: $waypoint-light-blue;
@@ -161,8 +221,7 @@ body.waitlist {
     }
 
     #clearbit {
-      height: 50px;
-      width: 50x;
+      max-height: 50px;
       padding: 0px
           }
   }
@@ -203,11 +262,11 @@ body.waitlist {
     }
     li:before {
       content: '';
-      width: 26px;
-      height: 26px;
+      width: 22px;
+      height: 22px;
       position: absolute;
       background-image: url('/assets/img/checkmark.svg');
-      opacity: .7;
+      opacity: .5;
       background-size: cover;
       background-position: center;
       left: 0;
@@ -246,70 +305,49 @@ body.waitlist {
       color: $waypoint-black;
   }
 
+
+//Waypoint Mobile 
+
+  @media (max-width: $sm-screen) { 
+
+    .mobile-nav-toggle {
+      display: none;
+    }
+
+    section.main {
+
+      .text {
+        padding-top: 0px;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2.2em;  
+        text-align: center;
+        font-weight: 600;
+        margin: 1em 0px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 1.4em;
+      }
+
+      ul {
+        text-align: left;
+      }
+
+      button.cta {
+        font-size: 1em;
+        width: auto;
+        padding: ..9em 3em;
+
+      }
+
+    }//end seciton main 
+
+  } // end mobile waypoint
+
 } // end waypoint 
-
-
-/*--------------------------------------------------------------
-# Mobile 
---------------------------------------------------------------*/
-
-
-@media (max-width: $sm-screen) { 
-  
-  header {
-    padding: 35px 20px 20px; 
-  }
-
-  img.brand {
-    max-height: 40px;
-  }
-
-  section.main.lp {
-    padding: 20px 0px 60px;
-  }
-
-  h1.section-title {
-    font-size: 2.4em;
-  }
-
-  a.cta.lp, button {
-    width: 100%;
-    padding: 25px;
-    font-size: 1.4em;
-    text-align: center;
-  }
-
-  a.logo, p.main-text {
-    width: 100%;
-    font-size: 1.25em;
-  }
-
-  .image {
-    padding: 10px;
-  }
-
-  div.text {
-    padding: 0px 10px;
-  }
-
-  .section-title {
-    width: 100%;
-    margin: 20px 0px;
-  }
-
-  footer {
-    padding: 20px 0px;
-  }
-
-  .credits {
-    margin-top: 15px;
-  }
-
-  } // end mobile
-
-} // end body.waitlist
-
-
 
 
 
