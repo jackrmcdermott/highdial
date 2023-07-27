@@ -17,8 +17,7 @@ body.waitlist {
 body.waitlist header {
   box-shadow: none;
   border-bottom: none;
-  padding: 8px 20px;
-  border-bottom: 1px solid #ebebed;
+  padding: 15px 20px;
 }
 body.waitlist a.nav-btn, body.waitlist button.nav-btn {
   font-size: 0.85em;
@@ -105,7 +104,7 @@ body.waitlist.assessment .text {
     padding: 35px 20px 20px;
   }
   body.waitlist img.brand {
-    max-height: 50px;
+    max-height: 40px;
   }
   body.waitlist section.main.lp {
     padding: 20px 0px 60px;
@@ -144,12 +143,19 @@ body.waitlist.assessment .text {
 /*--------------------------------------------------------------
 # Waypoint
 --------------------------------------------------------------*/
+body.waypoint {
+  /*--------------------------------------------------------------
+  # Waypoint Mobile 
+  --------------------------------------------------------------*/
+}
 body.waypoint header {
+  background-color: #EBFAFE;
   color: #143742;
 }
 body.waypoint header button.nav-btn {
   background-color: #143742;
   font-weight: 500;
+  border-radius: 0.6em;
 }
 body.waypoint header button.nav-btn:hover {
   background-color: #08161b;
@@ -161,7 +167,7 @@ body.waypoint header h4 {
   opacity: 0.5;
 }
 body.waypoint header #clearbit {
-  max-height: 50px;
+  max-height: 40px;
   padding: 0px;
 }
 body.waypoint section.main {
@@ -209,16 +215,16 @@ body.waypoint section.main ul li:before {
   transform: translateY(-50%);
 }
 body.waypoint section.main a.cta.lp, body.waypoint section.main button {
-  margin: 1em 0;
+  margin: 0.8em 0 1.6em;
   font-size: 0.8em;
   font-weight: 500;
   border: none;
   outline: none;
   letter-spacing: 0.001em;
   padding: 20px 50px;
-  border: none;
   box-shadow: none;
   background-color: #143742;
+  border-radius: 0.6em;
 }
 body.waypoint section.main a.cta.lp:hover, body.waypoint section.main button:hover {
   background-color: #08161b;
@@ -239,6 +245,9 @@ body.waypoint footer {
   }
   body.waypoint .mobile-nav-toggle {
     display: none;
+  }
+  body.waypoint #clearbit {
+    max-height: 40px;
   }
   body.waypoint section.main .text {
     padding-top: 0px;

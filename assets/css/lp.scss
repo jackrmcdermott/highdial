@@ -17,8 +17,8 @@ body.waitlist {
   header {
     box-shadow: none;
     border-bottom: none;
-    padding: 8px 20px;
-    border-bottom: 1px solid #ebebed;
+    padding: 15px 20px;
+    // border-bottom: 1px solid #ebebed;
   }
 
   a.nav-btn, button.nav-btn {
@@ -129,10 +129,6 @@ body.waitlist {
     max-width: 660px;
   }
 
-  .image {
-   
-  }
-
 }
 
 
@@ -147,7 +143,7 @@ body.waitlist {
     }
 
     img.brand {
-      max-height: 50px;
+      max-height: 40px;
     }
 
     section.main.lp {
@@ -195,6 +191,8 @@ body.waitlist {
 } // end lp
 
 
+
+
 /*--------------------------------------------------------------
 # Waypoint
 --------------------------------------------------------------*/
@@ -202,12 +200,13 @@ body.waitlist {
 body.waypoint {
   
   header {
-   // background-color: $waypoint-light-blue;
+   background-color: $waypoint-light-blue;
     color: $waypoint-black;
 
     button.nav-btn {
       background-color: $waypoint-black;
       font-weight: 500;
+      border-radius: .6em;
       &:hover {
         background-color: darken($waypoint-black, 10%);
       }
@@ -218,13 +217,13 @@ body.waypoint {
       margin: 3px 16px 0px 18px;
       font-weight: 300;
       opacity: 0.5;
-     // border: 1px solid orange;
     }
 
     #clearbit {
-      max-height: 50px;
+      //max-width: 100px;
+      max-height: 40px;
       padding: 0px
-          }
+    }
   }
 
   section.main {
@@ -277,16 +276,16 @@ body.waypoint {
   }
 
     a.cta.lp, button {
-      margin: 1em 0;
+      margin: .8em 0 1.6em;
       font-size: .8em;
       font-weight: 500;
       border: none;
       outline: none;
       letter-spacing: 0.001em;
       padding: 20px 50px;
-      border: none;
       box-shadow: none;
       background-color: $waypoint-black;
+      border-radius: .6em;
       &:hover {
         background-color: darken($waypoint-black, 10%);
       }
@@ -307,7 +306,10 @@ body.waypoint {
   }
 
 
-//Waypoint Mobile 
+/*--------------------------------------------------------------
+# Waypoint Mobile 
+--------------------------------------------------------------*/
+//continues from open parenthesis above
 
   @media (max-width: $sm-screen) { 
 
@@ -316,6 +318,10 @@ body.waypoint {
     }
     .mobile-nav-toggle {
       display: none;
+    }
+
+    #clearbit {
+      max-height: 40px;
     }
 
     section.main {
