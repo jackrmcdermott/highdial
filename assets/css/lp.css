@@ -17,11 +17,12 @@ body.waitlist {
 body.waitlist header {
   box-shadow: none;
   border-bottom: none;
-  padding: 20px 20px;
+  padding: 8px 20px;
+  border-bottom: 1px solid #ebebed;
 }
 body.waitlist a.nav-btn, body.waitlist button.nav-btn {
   font-size: 0.85em;
-  padding: 12px 24px;
+  padding: 10px 20px;
   font-weight: 500;
   color: white;
   background: #267AEF;
@@ -42,7 +43,7 @@ body.waitlist section.main .img-fluid.big {
   padding: 32px;
 }
 body.waitlist img.brand {
-  max-height: 36px;
+  max-height: 30px;
 }
 body.waitlist .container {
   max-width: 1800px;
@@ -144,14 +145,13 @@ body.waitlist.assessment .text {
 # Waypoint
 --------------------------------------------------------------*/
 body.waypoint header {
-  background-color: #EBFAFE;
   color: #143742;
 }
-body.waypoint header button {
+body.waypoint header button.nav-btn {
   background-color: #143742;
   font-weight: 500;
 }
-body.waypoint header button:hover {
+body.waypoint header button.nav-btn:hover {
   background-color: #08161b;
 }
 body.waypoint header h4 {
@@ -234,30 +234,32 @@ body.waypoint footer {
   color: #143742;
 }
 @media (max-width: 576px) {
+  body.waypoint header {
+    padding: 20px;
+  }
   body.waypoint .mobile-nav-toggle {
     display: none;
   }
   body.waypoint section.main .text {
     padding-top: 0px;
-    text-align: center;
   }
   body.waypoint section.main h1 {
-    font-size: 2.2em;
-    text-align: center;
-    font-weight: 600;
-    margin: 1em 0px;
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0px 0px 0.8em 0px;
   }
   body.waypoint section.main p {
     font-weight: 400;
-    font-size: 1.4em;
+    font-size: 1.6em;
   }
   body.waypoint section.main ul {
     text-align: left;
+    font-size: 1.1em;
   }
   body.waypoint section.main button.cta {
     font-size: 1em;
     width: auto;
-    padding: 0.8em 3em;
+    padding: 0.9em 3em;
   }
 }
 
