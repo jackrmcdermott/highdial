@@ -244,22 +244,27 @@ body.waypoint footer {
     padding-top: 0px;
   }
   body.waypoint section.main h1 {
-    font-size: 3em;
-    font-weight: 700;
-    margin: 0px 0px 0.8em 0px;
+    font-size: 2.1em;
+    font-weight: 500;
+    margin-top: 0px;
   }
   body.waypoint section.main p {
-    font-weight: 400;
-    font-size: 1.6em;
+    font-weight: 300;
+    font-size: 1.2em;
+    margin: 1.5em 0px;
   }
   body.waypoint section.main ul {
     text-align: left;
-    font-size: 1.1em;
+    font-size: 1em;
+  }
+  body.waypoint section.main ul li {
+    margin: 1.2em 0px;
   }
   body.waypoint section.main button.cta {
     font-size: 1em;
     width: auto;
-    padding: 0.9em 3em;
+    padding: 1em 2.5em;
+    margin-top: 0.5em;
   }
 }
 
