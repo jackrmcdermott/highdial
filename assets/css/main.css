@@ -154,17 +154,16 @@ body.waypoint header {
 }
 body.waypoint header button.nav-btn {
   background-color: #143742;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: 0.6em;
 }
 body.waypoint header button.nav-btn:hover {
   background-color: #08161b;
 }
-body.waypoint header h4 {
-  line-height: 30px;
-  margin: 3px 16px 0px 18px;
-  font-weight: 300;
-  opacity: 0.5;
+body.waypoint header .vert-bar {
+  border-right: 1px solid #d5e0d5;
+  height: 35px;
+  margin: 3px 25px 0px 20px;
 }
 body.waypoint header #clearbit {
   max-height: 40px;
@@ -179,14 +178,14 @@ body.waypoint section.main .text {
   padding: 1.2em 0px 0px;
 }
 body.waypoint section.main h1 {
-  font-size: 4em;
+  font-size: 3.4em;
   font-weight: 700;
   margin: 0.6em 0px;
   letter-spacing: -0.02em;
   color: #143742;
 }
 body.waypoint section.main p {
-  font-size: 1.5em;
+  font-size: 1.4em;
   opacity: 0.9;
   font-weight: 500;
   color: #143742;
@@ -221,7 +220,7 @@ body.waypoint section.main a.cta.lp, body.waypoint section.main button {
   border: none;
   outline: none;
   letter-spacing: 0.001em;
-  padding: 20px 50px;
+  padding: 18px 44px;
   box-shadow: none;
   background-color: #143742;
   border-radius: 0.6em;
