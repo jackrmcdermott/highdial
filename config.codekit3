@@ -921,6 +921,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/medicaid-parent.png" : {
+      "ft" : 32768,
+      "iS" : 506216,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/medicaid-parent.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/img\/side2.png" : {
       "ft" : 32768,
       "iS" : 1009019,
@@ -956,19 +969,6 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/img\/student-scribble.png" : {
-      "ft" : 32768,
-      "iS" : 459931,
-      "oA" : 0,
-      "oAP" : "\/assets\/img\/student-scribble.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1883,6 +1883,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/request\/index.html",
+      "oF" : 0
+    },
+    "\/schools-medicaid\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/schools-medicaid\/index.html",
       "oF" : 0
     },
     "\/test\/extra.html" : {
