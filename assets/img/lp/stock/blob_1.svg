@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="464px" height="400px" viewBox="0 0 464 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>Oval</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M215,399.5 C343.130062,399.5 464,360.130062 464,232 C464,186.694831 451.013763,144.42276 428.560594,108.703091 C387.51271,43.4019823 314.824893,0 232,0 C167.48755,0 124.551189,77.4982672 82.5,120 C41.0320943,161.9122 0,168.382388 0,232 C0,360.130062 86.869938,399.5 215,399.5 Z" id="Oval" fill="#68D5C0"></path>
-    </g>
-</svg>
+<svg height="400" viewBox="0 0 464 400" width="464" xmlns="http://www.w3.org/2000/svg"><path d="m215 399.5c128.130062 0 249-39.369938 249-167.5 0-45.305169-12.986237-87.57724-35.439406-123.296909-41.047884-65.3011087-113.735701-108.703091-196.560594-108.703091-64.51245 0-107.448811 77.4982672-149.5 120-41.4679057 41.9122-82.5 48.382388-82.5 112 0 128.130062 86.869938 167.5 215 167.5z" fill="#68d5c0" fill-rule="evenodd"/></svg>

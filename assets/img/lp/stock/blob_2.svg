@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="610px" height="510px" viewBox="0 0 610 510" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>Oval 2</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M305,510 C473.446849,510 610,373.446849 610,205 C610,36.5531513 546.5,124.5 320.5,35.5 C94.5,-53.5 0,36.5531513 0,205 C0,373.446849 136.553151,510 305,510 Z" id="Oval-2" fill="#B8E986"></path>
-    </g>
-</svg>
+<svg height="510" viewBox="0 0 610 510" width="610" xmlns="http://www.w3.org/2000/svg"><path d="m305 510c168.446849 0 305-136.553151 305-305 0-168.4468487-63.5-80.5-289.5-169.5s-320.5 1.0531513-320.5 169.5c0 168.446849 136.553151 305 305 305z" fill="#b8e986" fill-rule="evenodd"/></svg>
