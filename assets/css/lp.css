@@ -314,15 +314,20 @@ body.doormat section.main h1 {
 body.doormat section.main button {
   background-color: white;
   color: black;
+  border-radius: 70px;
+  padding: 10px 40px;
 }
 body.doormat section.main button:hover {
   background-color: white;
   color: black;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 @media (max-width: 576px) {
+  body.doormat {
+    background-position-x: 80%;
+  }
   body.doormat section.main h1 {
-    font-size: 2em;
+    font-size: 2.5em;
   }
 }
 

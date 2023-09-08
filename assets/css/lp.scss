@@ -416,21 +416,25 @@ body.doormat {
     button {
       background-color: white;
       color: black;
+      border-radius: 70px;
+      padding: 10px 40px;
+
       &:hover {
         background-color: white;
         color: black;
-        opacity: 0.7;
+        opacity: 0.9;
       }
     }
   } // end section 
 
 
 @media (max-width: $sm-screen) { 
+  background-position-x: 80%;
 
   section.main {
 
     h1 {
-      font-size: 2em;
+      font-size: 2.5em;
     }
   }
 
