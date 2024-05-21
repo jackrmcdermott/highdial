@@ -606,6 +606,125 @@ section.four-oh-four {
 
 
 
+
+/*--------------------------------------------------------------
+# ROI Calculator
+--------------------------------------------------------------*/
+
+
+.row.roi {
+
+a.custom-btn {
+    box-sizing: border-box;
+    background-color: $blue;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    appearance: none;
+    border: 0;
+    cursor: pointer;
+    justify-content: center;
+    margin: 10px 0px;
+    outline: none;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px !important;
+    border-radius: 1.5rem;
+    font-weight: 600;
+  	display: inline-block;
+    transition: all .1s ease-in 0s;
+}
+
+a.custom-btn:hover, {
+  opacity: 0.9; 
+}
+
+
+
+/* Custom Tooltips */ 
+.tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  z-index: 2;
+  width: 300px;
+  color: white;
+  font-size: 12px;
+   	line-height: 1.4em;
+  	background-color: rgba(48, 44, 65, 1);
+  	border-radius: 20px;
+  	padding: 10px 15px;
+	bottom: 120%;
+   right: -220%;
+  
+}
+
+.tooltip-text a {
+  color: white;
+  text-decoration:underline;
+}
+  
+.tooltip-text::before {
+  content: "";
+  position: absolute;
+  transform: rotate(45deg);
+  background-color: rgba(48, 44, 65, 1);
+  padding: 5px;
+  z-index: 1;
+  top: 86%;
+  right: 57px;
+}
+
+.hover-text {
+  position: relative;
+  display: inline;
+  text-align: center;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+.hover-text:hover .tooltip-text {
+  visibility: visible;
+   transition: all .5s ease-in .5s;
+
+
+}
+
+.roi-calc-result {
+    font-size: 24px;
+    padding: 10px;
+    border: 2px solid $blue;
+    min-width: 100px;
+    text-align: center;
+    border-radius: 6px;
+    margin: 10px auto 0px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.roi-paragraph p {
+	font-size: 1.1em;
+}
+
+label {
+	margin: 40px 0px 10px;
+}
+
+input {
+	border-radius: 10px;
+	box-shadow: none;
+	border: 2px solid #cccccc;
+	font-size: 1.1em;
+	padding: 10px;
+	display: block;
+}
+
+
+} //end row.roi 
+
+
+
 /*--------------------------------------------------------------
 # Special Styles 
 --------------------------------------------------------------*/
