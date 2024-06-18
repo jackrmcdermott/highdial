@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- ======= Head ======= -->
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ROI Calculator</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+
+  <!-- Font-Awesome -->
+  <script src="https://use.fontawesome.com/92a80b2053.js"></script>
+
+  <!-- Vendor CSS Files -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="/assets/vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet">
+  <link href="/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!--SmoothScroll Vendor -->
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+  <!-- Template Main CSS File -->
+  <link href="/assets/css/style-min.css" rel="stylesheet">
+  <link href="/assets/css/main.css" rel="stylesheet">
+
+  <!--jquery --> <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+
+<style>
+
+body {
+
+    font-family: Arial, sans-serif;
+
+}
+
+
+
+.container {
+
+    max-width: 800px;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+}
+
+
+
+.funnel {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+
+
+.step {
+
+    border: 1px solid #000;
+
+    padding: 20px;
+
+    margin: 10px 0;
+
+    width: 300px;
+
+}
+
+
+
+input {
+
+    display: block;
+
+    margin: 10px auto;
+
+    padding: 5px;
+
+    width: 80%;
+
+}
+
+
+
+.arrow {
+
+    font-size: 2em;
+
+}
+
+
+
+button {
+
+    padding: 10px 20px;
+
+    font-size: 1em;
+
+    margin-top: 20px;
+
+    cursor: pointer;
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+   
+    <div class="container-lg">
+
+        <h1 class="text-center">4-Step Hiring Funnel</h1>
+
+        <div class="row text-center">
+
+            <div class="col-md-2 step">
+
+                <h2>Step 1: Applications</h2>
+
+                <input type="number" id="volume1" class="form-control" placeholder="Enter volume">
+
+                <input type="number" id="conversion1" class="form-control" placeholder="Conversion rate (%)">
+
+            </div>
+
+            <div class="col-md-1 arrow">
+
+                <div class="arrow-icon">&#8594;</div>
+
+            </div>
+
+            <div class="col-md-2 step">
+
+                <h2>Step 2: Phone Screen</h2>
+
+                <input type="number" id="volume2" class="form-control" placeholder="Volume after conversion" readonly>
+
+                <input type="number" id="conversion2" class="form-control" placeholder="Conversion rate (%)">
+
+            </div>
+
+            <div class="col-md-1 arrow">
+
+                <div class="arrow-icon">&#8594;</div>
+
+            </div>
+
+            <div class="col-md-2 step">
+
+                <h2>Step 3: Onsite Interview</h2>
+
+                <input type="number" id="volume3" class="form-control" placeholder="Volume after conversion" readonly>
+
+                <input type="number" id="conversion3" class="form-control" placeholder="Conversion rate (%)">
+
+            </div>
+
+            <div class="col-md-1 arrow">
+
+                <div class="arrow-icon">&#8594;</div>
+
+            </div>
+
+            <div class="col-md-2 step">
+
+                <h2>Step 4: Offer Extended</h2>
+
+                <input type="number" id="volume4" class="form-control" placeholder="Volume after conversion" readonly>
+
+            </div>
+
+        </div>
+
+        <div class="row text-center">
+
+            <div class="col-12">
+
+                <button class="btn btn-primary" onclick="calculateFunnel()">Calculate Funnel</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+<script>
+
+
+function calculateFunnel() {
+
+    let volume1 = document.getElementById('volume1').value;
+
+    let conversion1 = document.getElementById('conversion1').value;
+
+    let conversion2 = document.getElementById('conversion2').value;
+
+    let conversion3 = document.getElementById('conversion3').value;
+
+
+
+    if (volume1 && conversion1 && conversion2 && conversion3) {
+
+        let volume2 = volume1 * (conversion1 / 100);
+
+        let volume3 = volume2 * (conversion2 / 100);
+
+        let volume4 = volume3 * (conversion3 / 100);
+
+
+
+        document.getElementById('volume2').value = volume2.toFixed(2);
+
+        document.getElementById('volume3').value = volume3.toFixed(2);
+
+        document.getElementById('volume4').value = volume4.toFixed(2);
+
+    } else {
+
+        alert('Please enter all required values.');
+
+    }
+
+}
+
+</script>
+
+
+</body>
+
+</html>

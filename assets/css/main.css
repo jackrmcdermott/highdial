@@ -2269,7 +2269,6 @@ section.four-oh-four h2 {
 }
 .row.roi .hover-text:hover .tooltip-text {
   visibility: visible;
-  transition: all 0.5s ease-in 0.5s;
 }
 .row.roi .roi-calc-result {
   font-size: 24px;

@@ -1898,6 +1898,14 @@
       "oAP" : "\/request\/index.html",
       "oF" : 0
     },
+    "\/roi\/funnel.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/roi\/funnel.html",
+      "oF" : 0
+    },
     "\/roi\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
